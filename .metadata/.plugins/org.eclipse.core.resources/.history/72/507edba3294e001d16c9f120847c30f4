@@ -1,0 +1,5 @@
+package com.prpymes.microservicios.app.librodiario.controllers;
+
+public class PruebaController {
+
+}
