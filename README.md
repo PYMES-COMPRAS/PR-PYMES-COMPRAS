@@ -1,2 +1,3 @@
 # PR_PYMES_VENTAS
-Grupo solo para modulo Ventas
+Git solo para modulo Ventas - Microservicio
+
