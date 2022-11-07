@@ -3,7 +3,6 @@ package com.prpymes.microservicios.app.ventas.models.entity;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -46,6 +45,7 @@ public class Venta {
 	
 	
 	@ManyToOne(fetch = FetchType.LAZY)
+	@JsonIgnoreProperties(value = {"applications", "hibernateLazyInitializer"})
 	private Cliente cliente;
 	
 	
