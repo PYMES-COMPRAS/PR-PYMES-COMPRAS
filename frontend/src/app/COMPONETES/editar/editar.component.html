@@ -1,0 +1,9 @@
+<div class="container">
+    <label for="tarea">Referencia Presupuesto</label>
+    <input type="text" id="ref_presupuesto" name="ref_presupuesto" [(ngModel)]="tareaActual.ref_presupuesto">
+    <br>
+    <label for="estado">Base Imponible</label>
+    <input type="text" name="base_imponible" id="base_imponible" [(ngModel)]="tareaActual.base_imponible">
+
+    <button class="btn btn-primary" (click)="guardad()">guardar</button>
+</div>

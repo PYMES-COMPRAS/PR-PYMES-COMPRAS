@@ -1,0 +1,11 @@
+<div class="container">
+    <form action="">
+        <label for="tarea">Referencia de presupuesto</label>
+        <input type="text" id="ref_presupuesto" name="ref_presupuesto" [(ngModel)]="tareaNueva.ref_presupuesto">
+    <br>
+    <label for="estado">Base Imponible</label>
+    <input type="text" name="base_imponible" id="base_imponible" [(ngModel)]="tareaNueva.base_imponible">
+
+        <button class="btn btn-primary" (click)="agregarTarea()">Guardar</button>
+    </form>
+</div>
