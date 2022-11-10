@@ -19,8 +19,8 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>com.pymes.commons.proveedores</groupId>
-			<artifactId>commons-proveedores</artifactId>
+			<groupId>com.pymes.commons.models</groupId>
+			<artifactId>commons-models</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
