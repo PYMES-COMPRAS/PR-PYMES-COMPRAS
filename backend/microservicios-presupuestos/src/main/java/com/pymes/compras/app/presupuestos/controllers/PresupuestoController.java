@@ -5,6 +5,7 @@ import java.util.Optional;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -30,10 +31,7 @@ public class PresupuestoController extends CommonController<Presupuesto, Presupu
         presupuestoDb.setRefPresupuesto(presupuesto.getRefPresupuesto());
         presupuestoDb.setBaseImponible(presupuesto.getBaseImponible());
         presupuestoDb.setDescuentos(presupuesto.getDescuentos());
-        presupuestoDb.setFechaEntrega(presupuesto.getFechaEntrega());
-        presupuestoDb.setCondicionesPago(presupuesto.getCondicionesPago());
-        presupuestoDb.setTipoPago(presupuesto.getTipoPago());
-        presupuestoDb.setDivisa(presupuesto.getDivisa());
+        presupuestoDb.setFechaInicio(presupuesto.getFechaInicio());
         presupuestoDb.setPresupuestoActual(presupuesto.getPresupuestoActual());
         presupuestoDb.setEstado(presupuesto.getEstado());
         presupuestoDb.setUserUpdate(presupuesto.getUserUpdate());
@@ -51,7 +49,7 @@ public class PresupuestoController extends CommonController<Presupuesto, Presupu
         Presupuesto presupuestoDb = o.get();
 
         pedidos.forEach(a -> {
-            presupuestoDb.addPedido(a);
+           // presupuestoDb.addPedido(a);
         });
 
         return ResponseEntity.status(HttpStatus.CREATED).body(this.service.save(presupuestoDb));
@@ -65,9 +63,14 @@ public class PresupuestoController extends CommonController<Presupuesto, Presupu
         }
         Presupuesto presupuestoDb = o.get();
 
-        presupuestoDb.removePedido(pedido);
+        //presupuestoDb.removePedido(pedido);
 
         return ResponseEntity.status(HttpStatus.CREATED).body(this.service.save(presupuestoDb));
+    }
+
+    @GetMapping("/proveedor")
+    public ResponseEntity<?> presupuestsProveedor(){
+        return ResponseEntity.ok(service.joinPresupuestoWithProveedor());
     }
 
 }

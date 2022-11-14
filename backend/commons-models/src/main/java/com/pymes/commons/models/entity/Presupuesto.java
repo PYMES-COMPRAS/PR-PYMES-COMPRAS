@@ -28,7 +28,10 @@ public class Presupuesto {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer idPresupuesto;
+    private Integer id;
+
+    @Column(name = "idProveedor")
+    private  Integer idProveedor;
 
     @Column(name = "ref_presupuesto", length = 45)
     private String refPresupuesto;
@@ -36,24 +39,17 @@ public class Presupuesto {
     @Column(name = "base_imponible", precision = 8, scale = 2 )
     private BigDecimal baseImponible;
 
+    @Column(name = "descuentos")
     private Short descuentos;
 
-    @Column(name = "fecha_entrega")
-    private Date fechaEntrega;
-
-    @Column(name = "condiciones_pago")
-    private Short condicionesPago;
-
-    @Column(name = "tipo_pago")
-    private Short tipoPago;
-
-    private Short divisa;
+    @Column(name = "fecha_inicio")
+    private Date fechaInicio;
 
     @Column(name = "presupuesto_actual", precision = 8, scale = 2)
     private BigDecimal presupuestoActual;
 
     @Column(length = 1)
-    private Boolean estado;
+    private int estado;
 
     @Column(name = "update_date")
     @Temporal(TemporalType.TIMESTAMP)
@@ -62,34 +58,51 @@ public class Presupuesto {
     @Column(name = "user_update")
     private Integer userUpdate;
 
-    @JsonIgnoreProperties(value = {"presupuestos"})
+    
+    /*@JsonIgnoreProperties(value = {"presupuestos"})
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "idProveedor")
     private Proveedor proveedor;
 
     @JsonIgnoreProperties(value = {"presupuesto"}, allowSetters = true)
     @OneToMany(mappedBy = "presupuesto", fetch = FetchType.LAZY,cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Pedido> pedidos;
+    private List<Pedido> pedidos;*/
 
-    @PrePersist
-    public void aniadirFecha() {
-        this.updateDate = new Date();
-    }
 
     public Presupuesto() {
-        this.pedidos = new ArrayList<>();
     }
 
-    public Integer getIdPresupuesto() {
-        return idPresupuesto;
+    public Presupuesto(Integer id, Integer idProveedor, String refPresupuesto, BigDecimal baseImponible, Short descuentos, Date fechaInicio, BigDecimal presupuestoActual, int estado, Date updateDate, Integer userUpdate) {
+        this.id = id;
+        this.idProveedor = idProveedor;
+        this.refPresupuesto = refPresupuesto;
+        this.baseImponible = baseImponible;
+        this.descuentos = descuentos;
+        this.fechaInicio = fechaInicio;
+        this.presupuestoActual = presupuestoActual;
+        this.estado = estado;
+        this.updateDate = updateDate;
+        this.userUpdate = userUpdate;
     }
 
-    public void setIdPresupuesto(Integer idPresupuesto) {
-        this.idPresupuesto = idPresupuesto;
+    public Integer getId() {
+        return this.id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Integer getIdProveedor() {
+        return this.idProveedor;
+    }
+
+    public void setIdProveedor(Integer idProveedor) {
+        this.idProveedor = idProveedor;
     }
 
     public String getRefPresupuesto() {
-        return refPresupuesto;
+        return this.refPresupuesto;
     }
 
     public void setRefPresupuesto(String refPresupuesto) {
@@ -97,7 +110,7 @@ public class Presupuesto {
     }
 
     public BigDecimal getBaseImponible() {
-        return baseImponible;
+        return this.baseImponible;
     }
 
     public void setBaseImponible(BigDecimal baseImponible) {
@@ -105,63 +118,39 @@ public class Presupuesto {
     }
 
     public Short getDescuentos() {
-        return descuentos;
+        return this.descuentos;
     }
 
     public void setDescuentos(Short descuentos) {
         this.descuentos = descuentos;
     }
 
-    public Date getFechaEntrega() {
-        return fechaEntrega;
+    public Date getFechaInicio() {
+        return this.fechaInicio;
     }
 
-    public void setFechaEntrega(Date fechaEntrega) {
-        this.fechaEntrega = fechaEntrega;
-    }
-
-    public Short getCondicionesPago() {
-        return condicionesPago;
-    }
-
-    public void setCondicionesPago(Short condicionesPago) {
-        this.condicionesPago = condicionesPago;
-    }
-
-    public Short getTipoPago() {
-        return tipoPago;
-    }
-
-    public void setTipoPago(Short tipoPago) {
-        this.tipoPago = tipoPago;
-    }
-
-    public Short getDivisa() {
-        return divisa;
-    }
-
-    public void setDivisa(Short divisa) {
-        this.divisa = divisa;
+    public void setFechaInicio(Date fechaInicio) {
+        this.fechaInicio = fechaInicio;
     }
 
     public BigDecimal getPresupuestoActual() {
-        return presupuestoActual;
+        return this.presupuestoActual;
     }
 
     public void setPresupuestoActual(BigDecimal presupuestoActual) {
         this.presupuestoActual = presupuestoActual;
     }
 
-    public Boolean getEstado() {
-        return estado;
+    public int getEstado() {
+        return this.estado;
     }
 
-    public void setEstado(Boolean estado) {
+    public void setEstado(int estado) {
         this.estado = estado;
     }
 
     public Date getUpdateDate() {
-        return updateDate;
+        return this.updateDate;
     }
 
     public void setUpdateDate(Date updateDate) {
@@ -169,52 +158,79 @@ public class Presupuesto {
     }
 
     public Integer getUserUpdate() {
-        return userUpdate;
+        return this.userUpdate;
     }
 
     public void setUserUpdate(Integer userUpdate) {
         this.userUpdate = userUpdate;
     }
 
-    public Proveedor getProveedor() {
-        return proveedor;
+    public Presupuesto id(Integer id) {
+        setId(id);
+        return this;
     }
 
-    public void setProveedor(Proveedor proveedor) {
-        this.proveedor = proveedor;
+    public Presupuesto idProveedor(Integer idProveedor) {
+        setIdProveedor(idProveedor);
+        return this;
     }
+
+    public Presupuesto refPresupuesto(String refPresupuesto) {
+        setRefPresupuesto(refPresupuesto);
+        return this;
+    }
+
+    public Presupuesto baseImponible(BigDecimal baseImponible) {
+        setBaseImponible(baseImponible);
+        return this;
+    }
+
+    public Presupuesto descuentos(Short descuentos) {
+        setDescuentos(descuentos);
+        return this;
+    }
+
+    public Presupuesto fechaInicio(Date fechaInicio) {
+        setFechaInicio(fechaInicio);
+        return this;
+    }
+
+    public Presupuesto presupuestoActual(BigDecimal presupuestoActual) {
+        setPresupuestoActual(presupuestoActual);
+        return this;
+    }
+
+    public Presupuesto estado(int estado) {
+        setEstado(estado);
+        return this;
+    }
+
+    public Presupuesto updateDate(Date updateDate) {
+        setUpdateDate(updateDate);
+        return this;
+    }
+
+    public Presupuesto userUpdate(Integer userUpdate) {
+        setUserUpdate(userUpdate);
+        return this;
+    }
+
+
 
     @Override
-    public boolean equals(Object obj) {
-        if(this == obj) {
-            return true;
-        }
-
-        if(!(obj instanceof Presupuesto)) {
-            return false;
-        }
-        Presupuesto p = (Presupuesto) obj;
-
-        return this.idPresupuesto != null && this.idPresupuesto.equals(p.getIdPresupuesto());
-    }
-
-    public List<Pedido> getPedidos() {
-        return pedidos;
-    }
-
-    public void setPedidos(List<Pedido> pedidos) {
-        this.pedidos.clear();
-        pedidos.forEach(this::addPedido);
-    }
-
-    public void addPedido(Pedido pedido) {
-        this.pedidos.add(pedido);
-        pedido.setPresupuesto(this);
-    }
-    
-    public void removePedido(Pedido pedido) {
-        this.pedidos.remove(pedido);
-        pedido.setPresupuesto(null);
+    public String toString() {
+        return "{" +
+            " id='" + getId() + "'" +
+            ", idProveedor='" + getIdProveedor() + "'" +
+            ", refPresupuesto='" + getRefPresupuesto() + "'" +
+            ", baseImponible='" + getBaseImponible() + "'" +
+            ", descuentos='" + getDescuentos() + "'" +
+            ", fechaInicio='" + getFechaInicio() + "'" +
+            ", presupuestoActual='" + getPresupuestoActual() + "'" +
+            ", estado='" + getEstado() + "'" +
+            ", updateDate='" + getUpdateDate() + "'" +
+            ", userUpdate='" + getUserUpdate() + "'" +
+            "}";
     }
     
 }

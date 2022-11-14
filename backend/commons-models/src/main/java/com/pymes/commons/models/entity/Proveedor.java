@@ -25,7 +25,7 @@ public class Proveedor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer idProveedor;
+    private Integer id;
 
     @Column(length = 45)
     private String nombre;
@@ -52,25 +52,21 @@ public class Proveedor {
     @Column(name = "user_update")
     private Integer userUpdate;
 
-    @JsonIgnoreProperties(value = {"proveedor"}, allowSetters = true)
-    @OneToMany(mappedBy = "proveedor", fetch = FetchType.LAZY,cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Presupuesto> presupuestos;
-
     @PrePersist
     public void aniadirFecha() {
         this.updatedDate = new Date();
     }
 
     public Proveedor() {
-        this.presupuestos = new ArrayList<>();
+        
     }
 
-    public Integer getIdProveedor() {
-        return idProveedor;
+    public Integer getid() {
+        return id;
     }
 
-    public void setIdProveedor(Integer idProveedor) {
-        this.idProveedor = idProveedor;
+    public void setid(Integer id) {
+        this.id = id;
     }
 
     public String getNombre() {
@@ -137,23 +133,4 @@ public class Proveedor {
         this.userUpdate = userUpdate;
     }
 
-    public List<Presupuesto> getPresupuestos() {
-        return presupuestos;
-    }
-
-    public void setPresupuestos(List<Presupuesto> presupuestos) {
-        this.presupuestos.clear();
-        presupuestos.forEach(this::addPresupuesto);
-    }
-
-    public void addPresupuesto(Presupuesto presupuesto) {
-        this.presupuestos.add(presupuesto);
-        presupuesto.setProveedor(this);
-    }
-
-    public void removePresupuesto(Presupuesto presupuesto) {
-        this.presupuestos.remove(presupuesto);
-        presupuesto.setProveedor(null);
-    }
- 
 }
