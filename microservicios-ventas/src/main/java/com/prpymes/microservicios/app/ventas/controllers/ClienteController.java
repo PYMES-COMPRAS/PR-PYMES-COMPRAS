@@ -45,6 +45,11 @@ public class ClienteController   {
 		}
 		return ResponseEntity .ok().body(v.get());
 	}
+	@GetMapping("/cliente/filtrar/{term}")
+	public ResponseEntity<?> filtrar(@PathVariable String term)
+	{
+		return ResponseEntity .ok(service.findByNombreNitCi(term));
+	}
 	
 	@PostMapping("/cliente")
 	public ResponseEntity<?> crear(@RequestBody Cliente e )
