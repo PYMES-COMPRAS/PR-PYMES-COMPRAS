@@ -1,0 +1,68 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosProveedoresApplication<microservicios-proveedores>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pymes.compras.app.proveedores.MicroserviciosProveedoresApplication",
+            "projectName": "microservicios-proveedores",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=65023 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicios-proveedores"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosPresupuestosApplication<microservicios-presupuestos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pymes.compras.app.presupuestos.MicroserviciosPresupuestosApplication",
+            "projectName": "microservicios-presupuestos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=65057 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicios-presupuestos"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosPedidosApplication<microservicios-pedidos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pymes.compras.app.pedidos.MicroserviciosPedidosApplication",
+            "projectName": "microservicios-pedidos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=65080 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicios-pedidos"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosGatewayApplication<microservicios-gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pymes.gateway.MicroserviciosGatewayApplication",
+            "projectName": "microservicios-gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=49718 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicios-gateway"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosZuulApplication<microservicios-zuul>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pymes.zuul.MicroserviciosZuulApplication",
+            "projectName": "microservicios-zuul",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosEurekaApplication<microservicios-eureka>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pymes.eureka.MicroserviciosEurekaApplication",
+            "projectName": "microservicios-eureka",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
