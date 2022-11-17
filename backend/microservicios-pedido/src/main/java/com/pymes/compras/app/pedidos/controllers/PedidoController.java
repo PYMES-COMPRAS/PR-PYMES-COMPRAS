@@ -19,11 +19,10 @@ public class PedidoController extends CommonController<Pedido, PedidoService>{
     @PutMapping("/{id}")
     public ResponseEntity<?> editar(@RequestBody Pedido pedido, @PathVariable Long id){
         Optional<Pedido> o = service.findById(id);
-
         if(!o.isPresent()){
             ResponseEntity.notFound().build();
         }
-
+//listar compras
         Pedido PedidoDB = o.get();
         PedidoDB.setIdPedido(pedido.getIdPedido());
         PedidoDB.setIdPresupuesto(pedido.getIdPresupuesto());
