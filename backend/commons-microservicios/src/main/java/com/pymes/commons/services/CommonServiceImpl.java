@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.transaction.annotation.Transactional;
 
-public class CommonServiceImpl<E, R extends CrudRepository<E,Long>> implements CommonService<E> {
+public class CommonServiceImpl<E, R extends CrudRepository<E,Integer>> implements CommonService<E> {
 
     @Autowired
     protected R repository;
@@ -19,7 +19,7 @@ public class CommonServiceImpl<E, R extends CrudRepository<E,Long>> implements C
 
     @Override
     @Transactional(readOnly = true)
-    public Optional<E> findById(Long id) {
+    public Optional<E> findById(Integer id) {
         return repository.findById(id);
     }
 
@@ -31,7 +31,7 @@ public class CommonServiceImpl<E, R extends CrudRepository<E,Long>> implements C
 
     @Override
     @Transactional
-    public void deleteById(Long id) {
+    public void deleteById(Integer id) {
         repository.deleteById(id);
     }
 
