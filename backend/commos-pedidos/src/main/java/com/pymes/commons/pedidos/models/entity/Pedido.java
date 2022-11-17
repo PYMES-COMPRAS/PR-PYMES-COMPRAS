@@ -122,9 +122,10 @@ public class Pedido {
     public Long getUser_update() {
         return user_update;
     }
-
+//prueba
     public void setUser_update(Long user_update) {
         this.user_update = user_update;
     }
+
 
 }
