@@ -18,5 +18,4 @@ public interface ProveedorRepository extends  PagingAndSortingRepository<Proveed
     @Query(value="SELECT PRE.* FROM pm_c_proveedor PR INNER JOIN pm_c_presupuesto PRE ON PRE.idProveedor = PR.id WHERE PRE.idProveedor = ?1", nativeQuery = true)
 	public List<Object> findPresupuestosForProvedor(Integer idProveedor);
 
-   
 }
