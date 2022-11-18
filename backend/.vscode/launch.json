@@ -1,0 +1,63 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch MicroserviciosDetallesPedidosApplication",
+            "request": "launch",
+            "mainClass": "com.pymes.compras.app.detallespedidos.MicroserviciosDetallesPedidosApplication",
+            "projectName": "microservicios-detalles-pedidos"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosEurekaApplication<microservicios-eureka>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pymes.eureka.MicroserviciosEurekaApplication",
+            "projectName": "microservicios-eureka",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=64725 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicios-eureka"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosProveedoresApplication<microservicios-proveedores>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pymes.compras.app.proveedores.MicroserviciosProveedoresApplication",
+            "projectName": "microservicios-proveedores",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=64960 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicios-proveedores"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosPresupuestosApplication<microservicios-presupuestos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pymes.compras.app.presupuestos.MicroserviciosPresupuestosApplication",
+            "projectName": "microservicios-presupuestos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosPedidosApplication<microservicios-pedidos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pymes.compras.app.pedidos.MicroserviciosPedidosApplication",
+            "projectName": "microservicios-pedidos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosGatewayApplication<microservicios-gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pymes.gateway.MicroserviciosGatewayApplication",
+            "projectName": "microservicios-gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
