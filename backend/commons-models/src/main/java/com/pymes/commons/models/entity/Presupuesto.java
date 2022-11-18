@@ -62,7 +62,7 @@ public class Presupuesto {
     @Column(name = "user_update")
     private Integer userUpdate;
 
-    @JsonIgnoreProperties(value = {"presupuestos"})
+    @JsonIgnoreProperties(value = {"presupuestos","hibernateLazyInitializer"})
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "idProveedor")
     private Proveedor proveedor;

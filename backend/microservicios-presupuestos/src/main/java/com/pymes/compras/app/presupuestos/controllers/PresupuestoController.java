@@ -38,6 +38,13 @@ public class PresupuestoController extends CommonController<Presupuesto, Presupu
         presupuestoDb.setEstado(presupuesto.getEstado());
         presupuestoDb.setUserUpdate(presupuesto.getUserUpdate());
 
+        presupuestoDb.getPedidos()
+        .stream()
+        .filter(pdb -> !presupuesto.getPedidos().contains(pdb))
+        .forEach(presupuestoDb::removePedido);
+
+        presupuestoDb.setPedidos(presupuestoDb.getPedidos());
+
         return ResponseEntity.status(HttpStatus.CREATED).body(service.save(presupuestoDb));
     }
 

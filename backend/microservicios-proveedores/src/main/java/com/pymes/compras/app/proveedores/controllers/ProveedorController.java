@@ -32,6 +32,13 @@ public class ProveedorController extends CommonController<Proveedor, ProveedorSe
         proveedorDb.setTelefono(proveedor.getTelefono());
         proveedorDb.setEmail(proveedor.getEmail());
         proveedorDb.setLogotipo(proveedor.getLogotipo());
+
+        proveedorDb.getPresupuestos()
+        .stream()
+        .filter(pdb -> !proveedor.getPresupuestos().contains(pdb))
+        .forEach(proveedorDb::removePresupuesto);
+
+        proveedorDb.setPresupuestos(proveedor.getPresupuestos());
         
         return ResponseEntity.status(HttpStatus.CREATED).body(service.save(proveedorDb));
     }
