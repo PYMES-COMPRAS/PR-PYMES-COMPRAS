@@ -20,6 +20,7 @@ public class DetallePedido {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Integer idDetallePedido;
 
     private Short descuento;

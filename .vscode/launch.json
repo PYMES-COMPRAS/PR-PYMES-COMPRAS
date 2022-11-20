@@ -9,7 +9,9 @@
             "projectName": "microservicios-proveedores",
             "args": "",
             "envFile": "${workspaceFolder}/.env",
-            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=65023 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicios-proveedores"
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=65023 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicios-proveedores",
+            "noDebug": false,
+            "__progressId": "cdc624ce-91c1-43b6-888e-e693b19ce0c5"
         },
         {
             "type": "java",
@@ -20,7 +22,9 @@
             "projectName": "microservicios-presupuestos",
             "args": "",
             "envFile": "${workspaceFolder}/.env",
-            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=65057 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicios-presupuestos"
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=65057 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicios-presupuestos",
+            "noDebug": false,
+            "__progressId": "594e89c4-e4ae-4761-8de5-0b4c10d5b4fd"
         },
         {
             "type": "java",
@@ -31,7 +35,9 @@
             "projectName": "microservicios-pedidos",
             "args": "",
             "envFile": "${workspaceFolder}/.env",
-            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=65080 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicios-pedidos"
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=65080 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicios-pedidos",
+            "noDebug": false,
+            "__progressId": "6b5be357-d3e7-4ccb-8fe1-97f95e146c4d"
         },
         {
             "type": "java",
@@ -74,7 +80,9 @@
             "projectName": "microservicios-detalles-pedidos",
             "args": "",
             "envFile": "${workspaceFolder}/.env",
-            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=54618 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicios-detalles-pedidos"
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=54618 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicios-detalles-pedidos",
+            "noDebug": false,
+            "__progressId": "1011e30a-c606-4c78-b0af-86ecec76d8fb"
         },
         {
             "type": "java",
@@ -83,6 +91,28 @@
             "cwd": "${workspaceFolder}",
             "mainClass": "com.pymes.compras.app.productos.MicroserviciosProductosApplication",
             "projectName": "microservicios-productos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "noDebug": false,
+            "__progressId": "3c78ee87-dada-4a95-ad14-d0d744de5912"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosProduccionesApplication<microservicios-producciones>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pymes.compras.app.producciones.MicroserviciosProduccionesApplication",
+            "projectName": "microservicios-producciones",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosManufacturasApplication<microservicios-manufacturas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pymes.compras.app.manufacturas.MicroserviciosManufacturasApplication",
+            "projectName": "microservicios-manufacturas",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }

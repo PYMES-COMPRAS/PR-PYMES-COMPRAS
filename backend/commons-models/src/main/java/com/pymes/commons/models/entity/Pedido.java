@@ -28,6 +28,7 @@ public class Pedido {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Integer idPedido;
 
     @Column(name = "fecha_orden")
@@ -48,7 +49,7 @@ public class Pedido {
     private Short divisa;
 
     @Column(length = 1)
-    private Boolean estado;
+    private Short estado;
 
     @Column(name = "update_date")
     @Temporal(TemporalType.TIMESTAMP)
@@ -134,11 +135,11 @@ public class Pedido {
         this.divisa = divisa;
     }
 
-    public Boolean getEstado() {
+    public Short getEstado() {
         return estado;
     }
 
-    public void setEstado(Boolean estado) {
+    public void setEstado(Short estado) {
         this.estado = estado;
     }
 

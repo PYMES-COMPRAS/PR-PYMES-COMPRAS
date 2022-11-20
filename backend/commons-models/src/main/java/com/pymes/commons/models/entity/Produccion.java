@@ -25,6 +25,7 @@ public class Produccion {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Integer idProduccion;
 
     @Column(name = "ref_produccion", length = 45)
@@ -33,7 +34,7 @@ public class Produccion {
     @Column(name = "fecha_produccion")
     private Date fechaProduccion;
 
-    private Boolean estado;
+    private Short estado;
 
     @Column(name = "update_date")
     @Temporal(TemporalType.TIMESTAMP)
@@ -73,10 +74,10 @@ public class Produccion {
     public void setFechaProduccion(Date fechaProduccion) {
         this.fechaProduccion = fechaProduccion;
     }
-    public Boolean getEstado() {
+    public Short getEstado() {
         return estado;
     }
-    public void setEstado(Boolean estado) {
+    public void setEstado(Short estado) {
         this.estado = estado;
     }
     public Date getUpdateDate() {

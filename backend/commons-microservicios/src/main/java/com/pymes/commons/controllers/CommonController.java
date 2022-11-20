@@ -3,6 +3,7 @@ package com.pymes.commons.controllers;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -24,6 +25,11 @@ public class CommonController<E, S extends CommonService<E>> {
     public ResponseEntity<?> listar(){
         return ResponseEntity.ok().body(service.findAll());
     }
+
+    @GetMapping("/pagina")
+	public ResponseEntity<?> listar(Pageable pageable){
+		return ResponseEntity.ok().body(service.findAll(pageable));
+	}
 
     @GetMapping("/{id}")
     public ResponseEntity<?> ver(@PathVariable Integer id){
