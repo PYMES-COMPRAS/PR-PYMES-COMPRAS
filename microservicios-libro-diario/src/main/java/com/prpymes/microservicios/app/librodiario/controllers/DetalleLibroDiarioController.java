@@ -1,5 +1,8 @@
 package com.prpymes.microservicios.app.librodiario.controllers;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.http.HttpStatus;
@@ -18,8 +21,7 @@ public class DetalleLibroDiarioController {
 	private DetalleLibroDiarioService service;
 	
 	@PostMapping("/detalle")
-	public ResponseEntity<?> crear(@RequestBody DetalleLibroDiario detallelibrodiario) {
-		DetalleLibroDiario detallelibrodiarioDb = service.save(detallelibrodiario);
-		return ResponseEntity.status(HttpStatus.CREATED).body(detallelibrodiarioDb);
+	public ResponseEntity<?> crear(@RequestBody ArrayList<DetalleLibroDiario> detalles) {
+		return ResponseEntity.status(HttpStatus.CREATED).body(service.saveAll(detalles));
 	}
 }

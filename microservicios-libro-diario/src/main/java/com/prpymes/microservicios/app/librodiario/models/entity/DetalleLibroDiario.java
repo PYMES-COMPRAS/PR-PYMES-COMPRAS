@@ -1,5 +1,6 @@
 package com.prpymes.microservicios.app.librodiario.models.entity;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -17,15 +18,20 @@ public class DetalleLibroDiario {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id_detalle;	
-	private Long id_cuenta;
 	private String tipo_detalle;
 	private Double monto;
 	
 	
 	@JsonIgnoreProperties(value = {"detalles"})
 	@ManyToOne(fetch = FetchType.LAZY)
+	//@ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH})
     @JoinColumn(name = "id_libro_diario")
     private LibroDiario libroDiario;
+	
+    @JoinColumn(name = "id_cuenta")
+    @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH})
+    //@ManyToOne(fetch = FetchType.LAZY)
+    private Cuentas cuenta;
 	
 	
 	public LibroDiario getLibroDiario() {
@@ -34,18 +40,18 @@ public class DetalleLibroDiario {
 	public void setLibroDiario(LibroDiario libroDiario) {
 		this.libroDiario = libroDiario;
 	}
+	public Cuentas getCuenta() {
+		return cuenta;
+	}
+	public void setCuenta(Cuentas cuenta) {
+		this.cuenta = cuenta;
+	}
 	
 	public Long getId_detalle() {
 		return id_detalle;
 	}
 	public void setId_detalle(Long id_detalle) {
 		this.id_detalle = id_detalle;
-	}
-	public Long getId_cuenta() {
-		return id_cuenta;
-	}
-	public void setId_cuenta(Long id_cuenta) {
-		this.id_cuenta = id_cuenta;
 	}
 	public String getTipo_detalle() {
 		return tipo_detalle;

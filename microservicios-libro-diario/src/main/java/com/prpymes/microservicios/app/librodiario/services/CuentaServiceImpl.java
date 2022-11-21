@@ -23,6 +23,13 @@ public class CuentaServiceImpl implements CuentaService {
 		// TODO Auto-generated method stub
 		return repository.findByIdEmpresa(id_empresa);
 	}
+	
+	@Override
+	@Transactional(readOnly = true)
+	public Cuentas findByCodigoCuenta(String codigoCuenta) {
+		// TODO Auto-generated method stub
+		return repository.findByCodigoCuenta(codigoCuenta);
+	}
 
 	@Override
 	@Transactional(readOnly = true)

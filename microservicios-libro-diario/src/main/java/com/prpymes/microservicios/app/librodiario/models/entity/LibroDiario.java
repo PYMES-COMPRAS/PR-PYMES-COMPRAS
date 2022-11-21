@@ -28,14 +28,13 @@ public class LibroDiario {
 	private String glosa;
 	private String razon_social;
 	private String tipo_libro;
+	@Column(name = "fecha_creacion")
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date fecha;
 	
 	@JsonIgnoreProperties(value = {"libroDiario"}, allowSetters = true)
 	@OneToMany(mappedBy = "libroDiario", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
     private List<DetalleLibroDiario> detalles;	
-	
-	@Column(name = "fecha_creacion")
-	@Temporal(TemporalType.TIMESTAMP)
-	private Date fecha;
 	
 	public LibroDiario() {
 		this.detalles=new ArrayList<>();
@@ -68,7 +67,13 @@ public class LibroDiario {
 	}
 	public void setTipo_libro(String tipo_libro) {
 		this.tipo_libro = tipo_libro;
-	} 	
+	}
+	public Date getFecha() {
+		return fecha;
+	}
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
+	}
 	public List<DetalleLibroDiario> getDetalles() {
 		return detalles;
 	}	

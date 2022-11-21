@@ -10,6 +10,8 @@ public interface CuentaService {
 	
 	public Optional<Cuentas> findById(Long id);
 	
+	public Cuentas findByCodigoCuenta(String codigoCuenta);
+	
 	public Cuentas save(Cuentas alumno);
 	
 	public void deleteById(Long id);

@@ -1,11 +1,22 @@
 package com.prpymes.microservicios.app.librodiario.models.entity;
 
+import java.util.List;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.PrePersist;
 import javax.persistence.Table;
+
+import org.hibernate.mapping.Set;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 
 @Entity
 @Table(name="Cuenta")
@@ -17,7 +28,10 @@ public class Cuentas {
 	private String denominacion;
 	private String codigoCuenta;
 	private Long idEmpresa;
-	private int status;
+	private int status;	
+	
+	@OneToMany(mappedBy = "cuenta", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH})
+	private List<DetalleLibroDiario> detalles;
 	
 	@PrePersist 
 	public void prePersist() {
@@ -62,9 +76,6 @@ public class Cuentas {
 
 	public void setStatus(int status) {
 		this.status = status;
-	}
-	
-
-	
+	}	
 	
 }

@@ -28,6 +28,12 @@ public class CuentaController {
 	public ResponseEntity<?> listar(@PathVariable Long id){
 		return ResponseEntity.ok().body(service.findByIdEmpresa(id));
 	}
+	
+	@GetMapping("/CodigoCuenta/{id}")
+	public ResponseEntity<?> listar(@PathVariable String id){
+		return ResponseEntity.ok().body(service.findByCodigoCuenta(id));
+	}
+	
 	@PostMapping("/Cuenta")
 	public ResponseEntity<?> crear(@RequestBody Cuentas cuenta){
 		Cuentas cuentaDb = service.save(cuenta);
