@@ -1,12 +1,10 @@
 package com.prpymes.microservicios.app.ventas.services;
 
-import java.util.Optional;
+
 
 import com.prpymes.microservicios.app.ventas.models.entity.Venta;
+import com.prpymes.microservicios.commons.services.CommonService;
 
-public interface VentaService {
-	public Iterable<Venta> findAll();
-	public Optional<Venta> findById(Long id);
-	public Venta save(Venta venta);
-	public void deleteById(Long id);
+public interface VentaService extends CommonService<Venta> {
+	
 }

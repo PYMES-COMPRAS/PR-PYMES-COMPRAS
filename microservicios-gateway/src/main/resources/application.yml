@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: 'http://localhost:4200'
+            allowedHeaders: '*'
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+
+  application:
+    name: gateway
+server:
+  port: 10480
+eureka:
+  client:
+    prefer-same-zone-eureka: true   

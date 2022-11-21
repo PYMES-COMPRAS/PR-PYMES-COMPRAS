@@ -1,83 +1,157 @@
 package com.prpymes.microservicios.app.ventas.models.entity;
 
+import java.util.ArrayList;
 import java.util.Date;
-
-import javax.annotation.Generated;
+import java.util.List;
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 @Entity
-@Table(name = "sale")
+@Table(name = "ventas")
 public class Venta {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long idSale;
+	private Long idVenta; 
 	
-	private Long idEmployee;
+
+	@Column(name = "fecha_creacion")
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date fechaCreacion;
+	
+	
+	
+	@Column(name = "fecha_actualizacion")
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date fechaActualizacion;
+	
+	
+	@JsonIgnoreProperties(value = {"venta"}, allowSetters = true)
+	@OneToMany(mappedBy = "venta", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
+	private List<DetalleVenta> detallesVentas;
+	
+	
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JsonIgnoreProperties(value = {"applications", "hibernateLazyInitializer"})
+	private Cliente cliente;
+	
+	
+	private Long idUsuario;
+	private Double total;
 	private int status;
 	
-	@Temporal(TemporalType.TIMESTAMP)
-	private Date registrationDate;
+	public Venta() {
+		this.detallesVentas = new ArrayList<>();
+	}
 	
-	@Temporal(TemporalType.TIMESTAMP)
-	private Date dateUpdate;
-	
-	private Long idClient;
-	
+
+
+
 	@PrePersist
-	public void prePersist()
+	public void prePersist() {
+		this.fechaActualizacion = new Date();
+		this.fechaCreacion = new Date();
+	}
+
+	public Long getIdVenta() {
+		return idVenta;
+	}
+
+	public void setIdVenta(Long idVenta) {
+		this.idVenta = idVenta;
+	}
+
+	public Date getFechaCreacion() {
+		return fechaCreacion;
+	}
+
+	public void setFechaCreacion(Date fechaCreacion) {
+		this.fechaCreacion = fechaCreacion;
+	}
+
+	public Date getFechaActualizacion() {
+		return fechaActualizacion;
+	}
+
+	public void setFechaActualizacion(Date fechaActualizacion) {
+		this.fechaActualizacion = fechaActualizacion;
+	}
+
+	public List<DetalleVenta> getDetallesVentas() {
+		return detallesVentas;
+	}
+
+	public void setDetallesVentas(List<DetalleVenta> detallesVentas) {
+		this.detallesVentas.clear();
+		detallesVentas.forEach(this::addDetalleVenta);
+	}
+	public void addDetalleVenta(DetalleVenta detalleVenta)
 	{
-		this.registrationDate = new Date();
-		this.dateUpdate = new Date();
+		this.detallesVentas.add(detalleVenta);
+		detalleVenta.setVenta(this);
 	}
 	
+	public void removeDetalleVenta(DetalleVenta detalleVenta)
+	{
+		this.detallesVentas.remove(detalleVenta);
+		detalleVenta.setVenta(null);
+	}
 	
-	public Long getIdSale() {
-		return idSale;
+
+	public Cliente getCliente() {
+		return cliente;
 	}
-	public void setIdSale(Long idSale) {
-		this.idSale = idSale;
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
 	}
-	public Long getIdEmployee() {
-		return idEmployee;
+
+	public Long getIdUsuario() {
+		return idUsuario;
 	}
-	public void setIdEmployee(Long idEmployee) {
-		this.idEmployee = idEmployee;
+
+	public void setIdUsuario(Long idUsuario) {
+		this.idUsuario = idUsuario;
 	}
+
+	public Double getTotal() {
+		return total;
+	}
+
+	public void setTotal(Double total) {
+		this.total = total;
+	}
+
 	public int getStatus() {
 		return status;
 	}
+
 	public void setStatus(int status) {
 		this.status = status;
 	}
-	public Date getRegistrationDate() {
-		return registrationDate;
-	}
-	public void setRegistrationDate(Date registrationDate) {
-		this.registrationDate = registrationDate;
-	}
-	public Date getDateUpdate() {
-		return dateUpdate;
-	}
-	public void setDateUpdate(Date dateUpdate) {
-		this.dateUpdate = dateUpdate;
-	}
-	public Long getIdClient() {
-		return idClient;
-	}
-	public void setIdClient(Long idClient) {
-		this.idClient = idClient;
-	}
+	
+	
+
+
+
+
 	
 	
 	
 	
 	
+
 }
