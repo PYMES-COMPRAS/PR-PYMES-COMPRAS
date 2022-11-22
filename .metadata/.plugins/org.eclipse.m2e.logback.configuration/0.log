@@ -9910,3 +9910,794 @@ org.eclipse.jdt.core.JavaModelException: commons-microservicios does not exist
 2022-11-22 16:46:44,023 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-22 16:46:44,098 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-11-22 16:46:44,112 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:23:43,712 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-22 17:26:07,708 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-microservicios\pom.xml.
+2022-11-22 17:26:11,422 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:11,423 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:11,431 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:26:11,476 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:26:11,510 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:11,510 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:11,511 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-microservicios\src\test\resources
+2022-11-22 17:26:12,620 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-product\pom.xml.
+2022-11-22 17:26:14,424 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:14,425 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:14,427 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:26:14,439 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:26:14,464 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:14,464 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:14,465 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-product\src\test\resources
+2022-11-22 17:26:15,445 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-rack\pom.xml.
+2022-11-22 17:26:15,773 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:26:17,364 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:17,365 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:17,366 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:26:17,380 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:26:17,410 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:17,410 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:17,411 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-rack\src\test\resources
+2022-11-22 17:26:18,362 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-section\pom.xml.
+2022-11-22 17:26:18,663 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:26:18,664 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:26:20,246 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:20,246 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:20,248 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:26:20,266 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:26:20,301 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:20,302 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:20,302 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-section\src\test\resources
+2022-11-22 17:26:21,288 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.services:commons-services:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-services\pom.xml.
+2022-11-22 17:26:22,426 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:22,427 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:22,428 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:26:22,448 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:26:22,477 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:22,478 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:22,478 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-services\src\test\resources
+2022-11-22 17:26:23,574 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.producto:microservicio-productos:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-productos\pom.xml.
+2022-11-22 17:26:24,169 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:26:24,170 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:26:26,598 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:26,599 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:26,599 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:26:26,624 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:26:26,656 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:26,657 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:26,657 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-productos\src\test\resources
+2022-11-22 17:26:27,691 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.section:microservicio-section:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-section\pom.xml.
+2022-11-22 17:26:28,255 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-section: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT with classifier  to /commons-section/target/classes
+2022-11-22 17:26:28,256 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:26:28,256 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:26:28,257 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:26:31,035 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:31,035 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:31,036 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:26:31,043 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:26:31,075 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:31,075 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:31,076 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-section\src\test\resources
+2022-11-22 17:26:32,113 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.warehouse:microservicio-warehouse:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-warehouse\pom.xml.
+2022-11-22 17:26:32,676 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-section: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT with classifier  to /commons-section/target/classes
+2022-11-22 17:26:32,677 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:26:32,677 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:26:32,678 [Worker-29: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:26:37,317 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:37,318 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:37,319 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:26:37,330 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:26:37,377 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:37,378 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:37,379 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-warehouse\src\test\resources
+2022-11-22 17:26:38,969 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.almacenes:microservicios-almacenes:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-almacenes\pom.xml.
+2022-11-22 17:26:42,322 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:42,323 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:42,324 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:26:42,344 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:26:42,372 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:42,373 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:42,373 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-almacenes\src\test\resources
+2022-11-22 17:26:43,448 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.compras:microservicios-compras:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-compras\pom.xml.
+2022-11-22 17:26:46,656 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:46,656 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:46,657 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:26:46,665 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:26:46,702 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:46,702 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:46,703 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-compras\src\test\resources
+2022-11-22 17:26:47,927 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.formacionbdi.microservicios.app.eureka:microservicios-eurekas:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-eureka-server\pom.xml.
+2022-11-22 17:26:51,933 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:51,933 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:51,935 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:26:51,943 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:26:51,976 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:51,976 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:51,977 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-eureka-server\src\test\resources
+2022-11-22 17:26:53,043 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.facturacion:microservicios-facturacion:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-facturacion\pom.xml.
+2022-11-22 17:26:56,191 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:56,191 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:56,192 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:26:56,199 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:26:56,231 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:26:56,232 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:26:56,232 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-facturacion\src\test\resources
+2022-11-22 17:26:56,348 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:26:57,123 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.producto:microservicio-productos:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-productos\pom.xml.
+2022-11-22 17:26:57,692 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:26:57,692 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:27:01,150 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-productos/src/main/java
+2022-11-22 17:27:01,151 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-productos/src/main/resources
+2022-11-22 17:27:01,159 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-productos/src/main/resources
+2022-11-22 17:27:01,180 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-productos/src/test/java
+2022-11-22 17:27:05,069 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2022-11-22 17:27:05,356 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:05,357 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:05,360 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:05,362 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:05,397 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:05,398 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:05,398 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-microservicios\src\test\resources
+2022-11-22 17:27:05,545 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:05,545 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:05,547 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:05,547 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:05,582 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:05,582 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:05,582 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-product\src\test\resources
+2022-11-22 17:27:05,712 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:05,713 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:05,713 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:05,715 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:05,793 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:05,794 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:05,794 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-rack\src\test\resources
+2022-11-22 17:27:05,929 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:05,930 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:05,930 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:05,931 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:05,965 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:05,965 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:05,966 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-section\src\test\resources
+2022-11-22 17:27:06,117 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:06,117 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:06,118 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:06,119 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:06,160 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:06,161 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:06,161 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-services\src\test\resources
+2022-11-22 17:27:06,912 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:06,912 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:06,913 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:27:06,918 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:06,954 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:06,954 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:06,955 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-productos\src\test\resources
+2022-11-22 17:27:07,218 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:07,218 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:07,219 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:07,220 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:07,254 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:07,254 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:07,254 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-section\src\test\resources
+2022-11-22 17:27:07,502 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:07,502 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:07,503 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:07,504 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:07,536 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:07,536 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:07,536 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-eureka-server\src\test\resources
+2022-11-22 17:27:08,979 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.gateway:microservicios-gateway:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-gateway\pom.xml.
+2022-11-22 17:27:12,929 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:12,929 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:12,930 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-11-22 17:27:12,943 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:12,972 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:12,972 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:12,972 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-gateway\src\test\resources
+2022-11-22 17:27:14,172 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.librodiario:microservicios-libro-diario:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-libro-diario\pom.xml.
+2022-11-22 17:27:18,247 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:18,248 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:18,249 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:27:18,257 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:27:18,319 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:27:18,319 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:27:18,319 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-libro-diario\src\test\resources
+2022-11-22 17:27:18,432 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:27:23,881 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-product\pom.xml.
+2022-11-22 17:27:24,546 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.facturacion:microservicios-facturacion:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-facturacion\pom.xml.
+2022-11-22 17:27:25,228 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.librodiario:microservicios-libro-diario:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-libro-diario\pom.xml.
+2022-11-22 17:27:25,702 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.services:commons-services:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-services\pom.xml.
+2022-11-22 17:27:26,112 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.usuarios:microservicios-usuarios:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-usuarios\pom.xml.
+2022-11-22 17:27:26,526 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.compras:microservicios-compras:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-compras\pom.xml.
+2022-11-22 17:27:26,912 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.producto:microservicio-productos:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-productos\pom.xml.
+2022-11-22 17:27:27,019 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:27:27,020 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:27:27,583 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.rack:microservicios-rack:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-rack\pom.xml.
+2022-11-22 17:27:27,621 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:27:27,621 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:27:27,622 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:27:28,123 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.section:microservicio-section:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-section\pom.xml.
+2022-11-22 17:27:28,154 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-section: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT with classifier  to /commons-section/target/classes
+2022-11-22 17:27:28,154 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:27:28,155 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:27:28,155 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:27:28,805 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.formacionbdi.microservicios.app.eureka:microservicios-eurekas:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-eureka-server\pom.xml.
+2022-11-22 17:27:29,781 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.gateway:microservicios-gateway:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-gateway\pom.xml.
+2022-11-22 17:27:30,384 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-section\pom.xml.
+2022-11-22 17:27:30,407 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:27:30,407 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:27:30,908 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.warehouse:microservicio-warehouse:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-warehouse\pom.xml.
+2022-11-22 17:27:30,936 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-section: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT with classifier  to /commons-section/target/classes
+2022-11-22 17:27:30,937 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:27:30,937 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:27:30,937 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:28:11,775 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-22 17:28:19,386 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-microservicios\pom.xml.
+2022-11-22 17:28:21,041 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:21,042 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:21,050 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:28:21,086 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:28:21,097 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:21,097 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:21,098 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-microservicios\src\test\resources
+2022-11-22 17:28:24,440 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-product\pom.xml.
+2022-11-22 17:28:25,283 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:25,284 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:25,286 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:28:25,293 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:28:25,304 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:25,304 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:25,305 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-product\src\test\resources
+2022-11-22 17:28:26,669 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-rack\pom.xml.
+2022-11-22 17:28:26,964 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:28:27,893 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:27,893 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:27,895 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:28:27,947 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:28:27,960 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:27,960 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:27,961 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-rack\src\test\resources
+2022-11-22 17:28:29,744 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-section\pom.xml.
+2022-11-22 17:28:30,096 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:28:30,097 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:28:30,969 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:30,969 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:30,970 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:28:30,978 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:28:30,993 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:30,993 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:30,993 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-section\src\test\resources
+2022-11-22 17:28:31,888 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.services:commons-services:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-services\pom.xml.
+2022-11-22 17:28:33,208 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:33,209 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:33,210 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:28:33,250 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:28:33,265 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:33,266 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:33,266 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-services\src\test\resources
+2022-11-22 17:28:36,073 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.producto:microservicio-productos:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-productos\pom.xml.
+2022-11-22 17:28:36,757 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:28:36,757 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:28:38,629 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:38,629 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:38,630 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:28:38,637 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:28:38,653 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:38,654 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:38,654 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-productos\src\test\resources
+2022-11-22 17:28:40,719 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.section:microservicio-section:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-section\pom.xml.
+2022-11-22 17:28:41,282 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-section: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT with classifier  to /commons-section/target/classes
+2022-11-22 17:28:41,283 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:28:41,283 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:28:41,284 [Worker-6: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:28:43,439 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:43,439 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:43,440 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:28:43,475 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:28:43,492 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:43,493 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:43,493 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-section\src\test\resources
+2022-11-22 17:28:44,162 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:28:45,137 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-section\pom.xml.
+2022-11-22 17:28:45,463 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:28:45,464 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:28:47,143 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons-section/src/main/java
+2022-11-22 17:28:47,144 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons-section/src/main/resources
+2022-11-22 17:28:47,223 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons-section/src/main/resources
+2022-11-22 17:28:47,452 [Worker-9: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons-section/src/test/java
+2022-11-22 17:28:49,268 [Worker-9: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2022-11-22 17:28:50,368 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:28:50,369 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:28:50,698 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:50,698 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:50,700 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:28:50,735 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:28:50,762 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:50,762 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:50,762 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-section\src\test\resources
+2022-11-22 17:28:52,753 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.warehouse:microservicio-warehouse:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-warehouse\pom.xml.
+2022-11-22 17:28:53,346 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-section: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT with classifier  to /commons-section/target/classes
+2022-11-22 17:28:53,347 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:28:53,347 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:28:53,348 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:28:55,532 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:55,533 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:55,534 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:28:55,774 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:28:55,795 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:55,795 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:55,796 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-warehouse\src\test\resources
+2022-11-22 17:28:57,102 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.almacenes:microservicios-almacenes:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-almacenes\pom.xml.
+2022-11-22 17:28:59,159 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:59,159 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:59,162 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:28:59,184 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:28:59,205 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:28:59,205 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:28:59,205 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-almacenes\src\test\resources
+2022-11-22 17:29:00,385 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.compras:microservicios-compras:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-compras\pom.xml.
+2022-11-22 17:29:02,664 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:02,664 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:02,665 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:29:02,689 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:02,711 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:02,711 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:02,712 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-compras\src\test\resources
+2022-11-22 17:29:03,870 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.formacionbdi.microservicios.app.eureka:microservicios-eurekas:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-eureka-server\pom.xml.
+2022-11-22 17:29:06,706 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:06,707 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:06,708 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:29:06,738 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:06,761 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:06,761 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:06,762 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-eureka-server\src\test\resources
+2022-11-22 17:29:08,619 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.facturacion:microservicios-facturacion:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-facturacion\pom.xml.
+2022-11-22 17:29:11,309 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:11,309 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:11,310 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:29:11,340 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:11,376 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:11,376 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:11,377 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-facturacion\src\test\resources
+2022-11-22 17:29:13,016 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.gateway:microservicios-gateway:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-gateway\pom.xml.
+2022-11-22 17:29:16,297 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:16,298 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:16,299 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-11-22 17:29:16,339 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:16,365 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:16,365 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:16,365 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-gateway\src\test\resources
+2022-11-22 17:29:17,741 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.librodiario:microservicios-libro-diario:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-libro-diario\pom.xml.
+2022-11-22 17:29:20,775 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:20,775 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:20,776 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:29:20,814 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:20,847 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:20,847 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:20,847 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-libro-diario\src\test\resources
+2022-11-22 17:29:22,374 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.ventas:microservicios-ventas:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-portal-ventas\pom.xml.
+2022-11-22 17:29:26,091 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:26,091 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:26,092 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:29:26,124 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:26,281 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:26,281 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:26,282 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-portal-ventas\src\test\resources
+2022-11-22 17:29:28,166 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.rack:microservicios-rack:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-rack\pom.xml.
+2022-11-22 17:29:28,598 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:29:28,599 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:29:28,599 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:29:32,003 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:32,004 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:32,007 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:29:32,050 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:32,109 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:32,109 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:32,110 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-rack\src\test\resources
+2022-11-22 17:29:34,386 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.usuarios:microservicios-usuarios:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-usuarios\pom.xml.
+2022-11-22 17:29:39,159 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:39,160 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:39,161 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:29:39,197 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:39,231 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:39,231 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:39,232 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-usuarios\src\test\resources
+2022-11-22 17:29:41,303 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.ventas:microservicios-ventas:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-ventas\pom.xml.
+2022-11-22 17:29:42,152 [Worker-1: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:29:47,645 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:47,646 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:47,648 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:29:47,693 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:47,745 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:47,745 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:47,746 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-ventas\src\test\resources
+2022-11-22 17:29:51,423 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:51,424 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:51,434 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:51,436 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:51,493 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:51,494 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:51,495 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-portal-ventas\src\test\resources
+2022-11-22 17:29:52,889 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:29:52,891 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:29:52,892 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:29:53,200 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:53,200 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:53,202 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:53,204 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:53,314 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:53,314 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:53,316 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-rack\src\test\resources
+2022-11-22 17:29:54,184 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-product\pom.xml.
+2022-11-22 17:29:54,902 [Worker-7: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:29:55,112 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:55,113 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:55,115 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:55,117 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:29:55,184 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:29:55,185 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:29:55,186 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-ventas\src\test\resources
+2022-11-22 17:29:55,840 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.facturacion:microservicios-facturacion:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-facturacion\pom.xml.
+2022-11-22 17:29:56,858 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.librodiario:microservicios-libro-diario:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-libro-diario\pom.xml.
+2022-11-22 17:29:57,687 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.services:commons-services:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-services\pom.xml.
+2022-11-22 17:29:58,392 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.usuarios:microservicios-usuarios:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-usuarios\pom.xml.
+2022-11-22 17:29:59,175 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.compras:microservicios-compras:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-compras\pom.xml.
+2022-11-22 17:29:59,859 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.producto:microservicio-productos:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-productos\pom.xml.
+2022-11-22 17:29:59,998 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:29:59,999 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:30:00,632 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.rack:microservicios-rack:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-rack\pom.xml.
+2022-11-22 17:30:00,663 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:30:00,665 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:30:00,665 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:30:01,259 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.section:microservicio-section:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-section\pom.xml.
+2022-11-22 17:30:01,288 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-section: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT with classifier  to /commons-section/target/classes
+2022-11-22 17:30:01,290 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:30:01,290 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:30:01,291 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:30:01,919 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.formacionbdi.microservicios.app.eureka:microservicios-eurekas:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-eureka-server\pom.xml.
+2022-11-22 17:30:02,695 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.gateway:microservicios-gateway:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-gateway\pom.xml.
+2022-11-22 17:30:03,565 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-section\pom.xml.
+2022-11-22 17:30:03,592 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:30:03,594 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:30:04,235 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.warehouse:microservicio-warehouse:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-warehouse\pom.xml.
+2022-11-22 17:30:04,260 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-section: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT with classifier  to /commons-section/target/classes
+2022-11-22 17:30:04,261 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:30:04,262 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:30:04,263 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:30:04,959 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.ventas:microservicios-ventas:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-portal-ventas\pom.xml.
+2022-11-22 17:30:05,633 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-rack\pom.xml.
+2022-11-22 17:30:05,650 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:30:06,255 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-microservicios\pom.xml.
+2022-11-22 17:30:06,913 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.almacenes:microservicios-almacenes:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-almacenes\pom.xml.
+2022-11-22 17:30:07,577 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.ventas:microservicios-ventas:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-ventas\pom.xml.
+2022-11-22 17:30:07,611 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:31:14,506 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:31:14,507 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:31:14,510 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:31:14,511 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:31:14,580 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:31:14,581 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:31:14,581 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-section\src\test\resources
+2022-11-22 17:31:14,780 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:31:14,781 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:31:14,782 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:31:14,783 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:31:14,835 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:31:14,836 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:31:14,837 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-productos\src\test\resources
+2022-11-22 17:31:28,981 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:31:30,005 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-section\pom.xml.
+2022-11-22 17:31:30,361 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:31:30,362 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:31:33,188 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons-section/src/main/java
+2022-11-22 17:31:33,190 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons-section/src/main/resources
+2022-11-22 17:31:33,192 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons-section/src/main/resources
+2022-11-22 17:31:33,194 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons-section/src/test/java
+2022-11-22 17:31:36,400 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2022-11-22 17:31:37,057 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:31:37,058 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:31:37,061 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:31:37,104 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:31:37,164 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:31:37,165 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:31:37,165 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-section\src\test\resources
+2022-11-22 17:32:31,526 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:32:33,196 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-rack\pom.xml.
+2022-11-22 17:32:33,735 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:32:36,896 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons-rack/src/main/java
+2022-11-22 17:32:36,898 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons-rack/src/main/resources
+2022-11-22 17:32:36,915 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons-rack/src/main/resources
+2022-11-22 17:32:36,943 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons-rack/src/test/java
+2022-11-22 17:32:40,031 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2022-11-22 17:32:40,455 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:32:40,455 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:32:40,457 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:32:40,462 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:32:40,507 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:32:40,507 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:32:40,508 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-rack\src\test\resources
+2022-11-22 17:32:40,924 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:32:40,924 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:32:40,929 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:32:40,937 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:32:40,978 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:32:40,979 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:32:40,979 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-section\src\test\resources
+2022-11-22 17:33:12,366 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:33:13,511 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-product\pom.xml.
+2022-11-22 17:33:17,085 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons-product/src/main/java
+2022-11-22 17:33:17,087 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons-product/src/main/resources
+2022-11-22 17:33:17,104 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons-product/src/main/resources
+2022-11-22 17:33:17,137 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons-product/src/test/java
+2022-11-22 17:33:21,129 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2022-11-22 17:33:21,611 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:33:21,612 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:33:21,614 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:33:21,620 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:33:21,664 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:33:21,664 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:33:21,665 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-product\src\test\resources
+2022-11-22 17:33:22,124 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:33:22,124 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:33:22,126 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:33:22,135 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:33:22,175 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:33:22,175 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:33:22,176 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-rack\src\test\resources
+2022-11-22 17:33:22,585 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:33:22,585 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:33:22,588 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:33:22,595 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:33:22,623 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:33:22,623 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:33:22,624 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-section\src\test\resources
+2022-11-22 17:33:23,145 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:33:23,146 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:33:23,148 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:33:23,156 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:33:23,193 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:33:23,194 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:33:23,194 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-productos\src\test\resources
+2022-11-22 17:33:53,795 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:33:54,855 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-microservicios\pom.xml.
+2022-11-22 17:33:58,629 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons-microservicios/src/main/java
+2022-11-22 17:33:58,631 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons-microservicios/src/main/resources
+2022-11-22 17:33:58,646 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons-microservicios/src/main/resources
+2022-11-22 17:33:58,664 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons-microservicios/src/test/java
+2022-11-22 17:34:03,298 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 9 sec
+2022-11-22 17:34:03,984 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:34:03,985 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:34:03,987 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:34:03,996 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:34:04,057 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:34:04,057 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:34:04,058 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-microservicios\src\test\resources
+2022-11-22 17:34:04,850 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:34:04,850 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:34:04,854 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:34:04,865 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:34:04,917 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:34:04,917 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:34:04,918 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-productos\src\test\resources
+2022-11-22 17:34:26,498 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:34:27,502 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.commons.services:commons-services:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-services\pom.xml.
+2022-11-22 17:34:31,407 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons-services/src/main/java
+2022-11-22 17:34:31,409 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons-services/src/main/resources
+2022-11-22 17:34:31,432 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons-services/src/main/resources
+2022-11-22 17:34:31,461 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons-services/src/test/java
+2022-11-22 17:34:34,719 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2022-11-22 17:34:35,285 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:34:35,286 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:34:35,288 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:34:35,297 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:34:35,344 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:34:35,345 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:34:35,346 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-services\src\test\resources
+2022-11-22 17:34:57,018 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:34:58,089 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.almacenes:microservicios-almacenes:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-almacenes\pom.xml.
+2022-11-22 17:35:03,460 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-almacenes/src/main/java
+2022-11-22 17:35:03,462 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-almacenes/src/main/resources
+2022-11-22 17:35:03,478 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-almacenes/src/main/resources
+2022-11-22 17:35:03,497 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-almacenes/src/test/java
+2022-11-22 17:35:08,715 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 11 sec
+2022-11-22 17:35:09,153 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:35:09,154 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:35:09,155 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:35:09,160 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:35:09,199 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:35:09,199 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:35:09,199 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-almacenes\src\test\resources
+2022-11-22 17:35:19,065 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:35:20,155 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.compras:microservicios-compras:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-compras\pom.xml.
+2022-11-22 17:35:25,200 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-compras/src/main/java
+2022-11-22 17:35:25,201 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-compras/src/main/resources
+2022-11-22 17:35:25,217 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-compras/src/main/resources
+2022-11-22 17:35:25,233 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-compras/src/test/java
+2022-11-22 17:35:30,790 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 11 sec
+2022-11-22 17:35:31,364 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:35:31,365 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:35:31,368 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:35:31,377 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:35:31,427 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:35:31,428 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:35:31,429 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-compras\src\test\resources
+2022-11-22 17:35:57,686 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:35:59,019 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.section:microservicio-section:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-section\pom.xml.
+2022-11-22 17:35:59,880 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-section: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT with classifier  to /commons-section/target/classes
+2022-11-22 17:35:59,881 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:35:59,882 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:35:59,883 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:36:05,020 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-section/src/main/java
+2022-11-22 17:36:05,022 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-section/src/main/resources
+2022-11-22 17:36:05,037 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-section/src/main/resources
+2022-11-22 17:36:05,050 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-section/src/test/java
+2022-11-22 17:36:10,970 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 13 sec
+2022-11-22 17:36:11,864 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:36:11,865 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:36:11,867 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:36:11,877 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:36:11,939 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:36:11,940 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:36:11,940 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-section\src\test\resources
+2022-11-22 17:36:25,173 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:36:26,392 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.formacionbdi.microservicios.app.eureka:microservicios-eurekas:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-eureka-server\pom.xml.
+2022-11-22 17:36:32,168 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-eureka-server/src/main/java
+2022-11-22 17:36:32,170 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-eureka-server/src/main/resources
+2022-11-22 17:36:32,185 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-eureka-server/src/main/resources
+2022-11-22 17:36:32,199 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-eureka-server/src/test/java
+2022-11-22 17:36:38,145 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 12 sec
+2022-11-22 17:36:38,772 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:36:38,773 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:36:38,776 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:36:38,785 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:36:38,849 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:36:38,850 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:36:38,850 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-eureka-server\src\test\resources
+2022-11-22 17:37:16,897 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:37:17,903 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.facturacion:microservicios-facturacion:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-facturacion\pom.xml.
+2022-11-22 17:37:22,935 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-facturacion/src/main/java
+2022-11-22 17:37:22,936 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-facturacion/src/main/resources
+2022-11-22 17:37:22,953 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-facturacion/src/main/resources
+2022-11-22 17:37:22,968 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-facturacion/src/test/java
+2022-11-22 17:37:27,917 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 11 sec
+2022-11-22 17:37:28,523 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:37:28,524 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:37:28,527 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:37:28,537 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:37:28,603 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:37:28,604 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:37:28,604 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-facturacion\src\test\resources
+2022-11-22 17:38:35,198 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:38:36,371 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.gateway:microservicios-gateway:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-gateway\pom.xml.
+2022-11-22 17:38:43,130 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-gateway/src/main/java
+2022-11-22 17:38:43,132 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-gateway/src/main/resources
+2022-11-22 17:38:43,165 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-gateway/src/main/resources
+2022-11-22 17:38:43,182 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-gateway/src/test/java
+2022-11-22 17:38:49,847 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 14 sec
+2022-11-22 17:38:49,916 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:38:51,342 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.librodiario:microservicios-libro-diario:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-libro-diario\pom.xml.
+2022-11-22 17:38:57,588 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-libro-diario/src/main/java
+2022-11-22 17:38:57,589 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-libro-diario/src/main/resources
+2022-11-22 17:38:57,603 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-libro-diario/src/main/resources
+2022-11-22 17:38:57,619 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-libro-diario/src/test/java
+2022-11-22 17:39:04,748 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 14 sec
+2022-11-22 17:39:05,244 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:39:05,245 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:39:05,246 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-11-22 17:39:05,259 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:39:05,307 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:39:05,307 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:39:05,308 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-gateway\src\test\resources
+2022-11-22 17:39:06,010 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:39:06,010 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:39:06,011 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:39:06,018 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:39:06,061 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:39:06,061 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:39:06,061 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-libro-diario\src\test\resources
+2022-11-22 17:39:11,647 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:39:12,865 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.ventas:microservicios-ventas:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-portal-ventas\pom.xml.
+2022-11-22 17:39:19,211 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-portal-ventas/src/main/java
+2022-11-22 17:39:19,212 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-portal-ventas/src/main/resources
+2022-11-22 17:39:19,228 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-portal-ventas/src/main/resources
+2022-11-22 17:39:19,241 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-portal-ventas/src/test/java
+2022-11-22 17:39:25,740 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 14 sec
+2022-11-22 17:39:25,800 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:39:26,889 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.rack:microservicios-rack:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-rack\pom.xml.
+2022-11-22 17:39:27,628 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:39:27,630 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:39:27,632 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:39:33,445 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-rack/src/main/java
+2022-11-22 17:39:33,447 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-rack/src/main/resources
+2022-11-22 17:39:33,467 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-rack/src/main/resources
+2022-11-22 17:39:33,486 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-rack/src/test/java
+2022-11-22 17:39:40,477 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 14 sec
+2022-11-22 17:39:41,039 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:39:42,146 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.usuarios:microservicios-usuarios:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-usuarios\pom.xml.
+2022-11-22 17:39:47,296 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-usuarios/src/main/java
+2022-11-22 17:39:47,297 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-usuarios/src/main/resources
+2022-11-22 17:39:47,312 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-usuarios/src/main/resources
+2022-11-22 17:39:47,327 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-usuarios/src/test/java
+2022-11-22 17:39:52,813 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 11 sec
+2022-11-22 17:39:52,885 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:39:54,108 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.ventas:microservicios-ventas:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-ventas\pom.xml.
+2022-11-22 17:39:54,935 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:40:00,506 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-ventas/src/main/java
+2022-11-22 17:40:00,508 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-ventas/src/main/resources
+2022-11-22 17:40:00,521 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicios-ventas/src/main/resources
+2022-11-22 17:40:00,534 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicios-ventas/src/test/java
+2022-11-22 17:40:06,004 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 13 sec
+2022-11-22 17:40:06,302 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:40:06,302 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:40:06,303 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:40:06,311 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:40:06,366 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:40:06,366 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:40:06,367 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-portal-ventas\src\test\resources
+2022-11-22 17:40:07,188 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:40:07,188 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:40:07,192 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:40:07,203 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:40:07,257 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:40:07,258 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:40:07,259 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\commons-microservicios\src\test\resources
+2022-11-22 17:40:07,556 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:40:07,556 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:40:07,559 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:40:07,567 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:40:07,623 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:40:07,624 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:40:07,624 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-rack\src\test\resources
+2022-11-22 17:40:08,331 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:40:08,331 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:40:08,332 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:40:08,343 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:40:08,413 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:40:08,414 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:40:08,415 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-usuarios\src\test\resources
+2022-11-22 17:40:09,608 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:40:09,609 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:40:09,612 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:40:09,621 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:40:09,696 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:40:09,697 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:40:09,698 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-ventas\src\test\resources
+2022-11-22 17:40:24,029 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-22 17:40:25,287 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.almacenes.microservicio.app.warehouse:microservicio-warehouse:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-warehouse\pom.xml.
+2022-11-22 17:40:26,012 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-section: com.almacenes.microservicio.commons.section:commons-section:0.0.1-SNAPSHOT with classifier  to /commons-section/target/classes
+2022-11-22 17:40:26,013 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-rack: com.almacenes.microservicio.commons.rack:commons-rack:0.0.1-SNAPSHOT with classifier  to /commons-rack/target/classes
+2022-11-22 17:40:26,014 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier  to /commons-product/target/classes
+2022-11-22 17:40:26,015 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 17:40:31,242 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-warehouse/src/main/java
+2022-11-22 17:40:31,244 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-warehouse/src/main/resources
+2022-11-22 17:40:31,258 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-warehouse/src/main/resources
+2022-11-22 17:40:31,272 [Worker-2: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-warehouse/src/test/java
+2022-11-22 17:40:37,446 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 13 sec
+2022-11-22 17:40:38,190 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:40:38,191 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:40:38,194 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:40:38,203 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:40:38,262 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:40:38,262 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:40:38,264 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-warehouse\src\test\resources
+2022-11-22 17:41:49,250 [Worker-0: Launching microservicios-ventas - MicroserviciosVentasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 17:41:53,242 [Worker-0: Launching microservicios-ventas - MicroserviciosVentasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 17:41:57,274 [Worker-0: Launching microservicios-ventas - MicroserviciosVentasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 17:42:46,003 [Worker-1: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier null to /commons-product/target/classes
+2022-11-22 17:42:46,014 [Worker-1: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 17:42:50,042 [Worker-1: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier null to /commons-product/target/classes
+2022-11-22 17:42:50,053 [Worker-1: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 17:42:53,969 [Worker-1: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier null to /commons-product/target/classes
+2022-11-22 17:42:53,982 [Worker-1: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 17:53:14,907 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:53:14,908 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:53:14,915 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 17:53:14,941 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 17:53:15,023 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 17:53:15,023 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 17:53:15,025 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicio-productos\src\test\resources
+2022-11-22 17:53:29,048 [Worker-0: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier null to /commons-product/target/classes
+2022-11-22 17:53:29,062 [Worker-0: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 17:53:32,466 [Worker-0: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier null to /commons-product/target/classes
+2022-11-22 17:53:32,475 [Worker-0: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 17:53:36,043 [Worker-0: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-product: com.almacenes.microservicio.commons.product:commons-product:0.0.1-SNAPSHOT with classifier null to /commons-product/target/classes
+2022-11-22 17:53:36,055 [Worker-0: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
