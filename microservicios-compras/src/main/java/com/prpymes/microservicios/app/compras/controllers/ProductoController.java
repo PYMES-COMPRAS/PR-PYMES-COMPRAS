@@ -2,10 +2,14 @@ package com.prpymes.microservicios.app.compras.controllers;
 
 import java.util.Optional;
 
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,7 +22,7 @@ import com.prpymes.microservicios.commons.controllers.CommonController;
 @RestController
 public class ProductoController extends CommonController<Producto, ProductoService> {
     
-    @PutMapping("/{id}")
+    @PutMapping("/productos/{id}")
     public ResponseEntity<?> editar(@RequestBody Producto producto, @PathVariable Integer id){
         Optional<Producto> o = service.findById(id);
 
@@ -38,4 +42,42 @@ public class ProductoController extends CommonController<Producto, ProductoServi
         
         return ResponseEntity.status(HttpStatus.CREATED).body(service.save(productoDb));
     }
+
+    @Override
+	@GetMapping("/productos/")
+	public ResponseEntity<?> listar() {
+		return ResponseEntity.ok(service.findAll());
+	}
+
+	@Override
+	@GetMapping("/productos/{id}")
+	public ResponseEntity<?> ver(@PathVariable Integer id) {
+		Optional<Producto> o = service.findById(id);
+		if(!o.isPresent()) {
+			return ResponseEntity.notFound().build();
+		}
+
+		return ResponseEntity.ok(o.get());
+	}
+
+	@Override
+	@GetMapping("/productos/pagina")
+	public ResponseEntity<?> listar(Pageable pageable) {
+		return ResponseEntity.ok().body(service.findAll(pageable));
+	}
+
+	@Override
+	@PostMapping("/productos/")
+	public ResponseEntity<?> crear(@RequestBody Producto producto) {
+		Producto productoDb = service.save(producto);
+		return ResponseEntity.status(HttpStatus.CREATED).body(productoDb);
+	}
+
+	@Override
+	@DeleteMapping("/productos/{id}")
+	public ResponseEntity<?> eliminar(@PathVariable Integer id) {
+		service.deleteById(id);
+		return ResponseEntity.noContent().build();
+	}
+
 }
