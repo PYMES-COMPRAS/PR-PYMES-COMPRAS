@@ -115,6 +115,16 @@
             "projectName": "microservicios-manufacturas",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosComprasApplication<microservicios-compras>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.prpymes.microservicios.app.compras.MicroserviciosComprasApplication",
+            "projectName": "microservicios-compras",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
