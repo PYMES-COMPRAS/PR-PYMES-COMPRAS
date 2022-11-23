@@ -71,7 +71,7 @@ public class PedidoController extends CommonController<Pedido, PedidoService> {
     }
     
     @Override
-	@GetMapping("/pedidos/")
+	@GetMapping("/pedidos")
 	public ResponseEntity<?> listar() {
 		return ResponseEntity.ok(service.findAll());
 	}
@@ -94,7 +94,7 @@ public class PedidoController extends CommonController<Pedido, PedidoService> {
 	}
 
 	@Override
-	@PostMapping("/pedidos/")
+	@PostMapping("/pedidos")
 	public ResponseEntity<?> crear(@RequestBody Pedido pedido) {
 		Pedido pedidoDb = service.save(pedido);
 		return ResponseEntity.status(HttpStatus.CREATED).body(pedidoDb);

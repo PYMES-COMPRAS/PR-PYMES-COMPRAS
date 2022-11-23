@@ -28,7 +28,7 @@ public class DetallePedidoController extends CommonController<DetallePedido, Det
 	}
 
 	@Override
-	@GetMapping("/detalle-pedidos/")
+	@GetMapping("/detalle-pedidos")
 	public ResponseEntity<?> listar() {
 		return ResponseEntity.ok(service.findAll());
 	}
@@ -51,7 +51,7 @@ public class DetallePedidoController extends CommonController<DetallePedido, Det
 	}
 
 	@Override
-	@PostMapping("/detalle-pedidos/")
+	@PostMapping("/detalle-pedidos")
 	public ResponseEntity<?> crear(@RequestBody DetallePedido detallepedido) {
 		DetallePedido detallepedidoDb = service.save(detallepedido);
 		return ResponseEntity.status(HttpStatus.CREATED).body(detallepedidoDb);

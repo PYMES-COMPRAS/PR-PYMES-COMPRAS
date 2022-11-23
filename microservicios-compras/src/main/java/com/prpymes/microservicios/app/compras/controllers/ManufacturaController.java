@@ -20,7 +20,7 @@ import com.prpymes.microservicios.commons.controllers.CommonController;
 public class ManufacturaController extends CommonController<Manufactura, ManufacturaService> {
     
     @Override
-	@GetMapping("/manufaturas/")
+	@GetMapping("/manufaturas")
 	public ResponseEntity<?> listar() {
 		return ResponseEntity.ok(service.findAll());
 	}
@@ -43,7 +43,7 @@ public class ManufacturaController extends CommonController<Manufactura, Manufac
 	}
 
 	@Override
-	@PostMapping("/manufaturas/")
+	@PostMapping("/manufaturas")
 	public ResponseEntity<?> crear(@RequestBody Manufactura manufactura) {
 		Manufactura manufacturaDb = service.save(manufactura);
 		return ResponseEntity.status(HttpStatus.CREATED).body(manufacturaDb);

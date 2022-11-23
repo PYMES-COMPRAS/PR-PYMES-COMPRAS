@@ -84,7 +84,7 @@ public class PresupuestoController extends CommonController<Presupuesto, Presupu
     }
 
     @Override
-	@GetMapping("/presupuestos/")
+	@GetMapping("/presupuestos")
 	public ResponseEntity<?> listar() {
 		return ResponseEntity.ok(service.findAll());
 	}
@@ -107,7 +107,7 @@ public class PresupuestoController extends CommonController<Presupuesto, Presupu
 	}
 
 	@Override
-	@PostMapping("/presupuestos/")
+	@PostMapping("/presupuestos")
 	public ResponseEntity<?> crear(@RequestBody Presupuesto presupuesto) {
 		Presupuesto presupuestoDb = service.save(presupuesto);
 		return ResponseEntity.status(HttpStatus.CREATED).body(presupuestoDb);

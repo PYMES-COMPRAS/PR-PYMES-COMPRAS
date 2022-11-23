@@ -102,7 +102,7 @@ public class ProveedorController extends CommonController<Proveedor, ProveedorSe
     }
 
     @Override
-	@GetMapping("/proveedores/")
+	@GetMapping("/proveedores")
 	public ResponseEntity<?> listar() {
 		return ResponseEntity.ok(service.findAll());
 	}
@@ -125,7 +125,7 @@ public class ProveedorController extends CommonController<Proveedor, ProveedorSe
 	}
 
 	@Override
-	@PostMapping("/proveedores/")
+	@PostMapping("/proveedores")
 	public ResponseEntity<?> crear(@RequestBody Proveedor proveedor) {
 		Proveedor proveedorDb = service.save(proveedor);
 		return ResponseEntity.status(HttpStatus.CREATED).body(proveedorDb);

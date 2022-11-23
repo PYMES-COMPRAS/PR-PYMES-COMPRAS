@@ -44,7 +44,7 @@ public class ProductoController extends CommonController<Producto, ProductoServi
     }
 
     @Override
-	@GetMapping("/productos/")
+	@GetMapping("/productos")
 	public ResponseEntity<?> listar() {
 		return ResponseEntity.ok(service.findAll());
 	}
@@ -67,7 +67,7 @@ public class ProductoController extends CommonController<Producto, ProductoServi
 	}
 
 	@Override
-	@PostMapping("/productos/")
+	@PostMapping("/productos")
 	public ResponseEntity<?> crear(@RequestBody Producto producto) {
 		Producto productoDb = service.save(producto);
 		return ResponseEntity.status(HttpStatus.CREATED).body(productoDb);
