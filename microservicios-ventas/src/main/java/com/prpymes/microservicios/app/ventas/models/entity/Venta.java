@@ -50,6 +50,8 @@ public class Venta {
 	
 	
 	private Long idUsuario;
+	
+	private Long idCliente_online;
 	private Double total;
 	private int status;
 	
@@ -141,6 +143,20 @@ public class Venta {
 
 	public void setStatus(int status) {
 		this.status = status;
+	}
+
+
+
+
+	public Long getIdCliente_online() {
+		return idCliente_online;
+	}
+
+
+
+
+	public void setIdCliente_online(Long idCliente_online) {
+		this.idCliente_online = idCliente_online;
 	}
 	
 	

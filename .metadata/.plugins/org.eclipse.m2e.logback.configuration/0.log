@@ -10964,3 +10964,105 @@ org.eclipse.jdt.core.JavaModelException: commons-microservicios does not exist
 2022-11-22 22:41:38,312 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-11-22 22:41:38,313 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2022-11-22 22:41:38,394 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 22:41:38,474 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 22:41:38,475 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 22:41:38,476 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-usuario-cliente\src\test\resources
+2022-11-22 23:00:03,570 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:00:03,571 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:00:03,573 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:00:03,575 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:00:03,659 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:00:03,659 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:00:03,661 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-usuario-cliente\src\test\resources
+2022-11-22 23:00:55,995 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:00:55,996 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:00:55,998 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 23:00:56,031 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:00:56,108 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:00:56,108 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:00:56,109 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-libro-diario\src\test\resources
+2022-11-22 23:02:39,754 [Worker-35: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier  to /commons-microservicios/target/classes
+2022-11-22 23:02:40,044 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:02:40,046 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:02:40,049 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 23:02:40,086 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:02:40,150 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:02:40,151 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:02:40,151 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-ventas\src\test\resources
+2022-11-22 23:04:35,088 [Worker-40: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.ventas:microservicios-ventas:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-portal-ventas\pom.xml.
+2022-11-22 23:04:37,964 [Worker-40: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.31/mysql-connector-java-8.0.31.pom
+2022-11-22 23:04:38,425 [Worker-40: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.31/mysql-connector-java-8.0.31.pom
+2022-11-22 23:04:38,478 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.31 has been relocated to com.mysql:mysql-connector-j:jar:8.0.31: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2022-11-22 23:04:42,610 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:04:42,610 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:04:42,611 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:04:42,612 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:04:42,648 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:04:42,649 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:04:42,649 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-portal-ventas\src\test\resources
+2022-11-22 23:04:44,372 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:04:44,373 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:04:44,375 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 23:04:44,381 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:04:44,413 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:04:44,414 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:04:44,414 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-portal-ventas\src\test\resources
+2022-11-22 23:05:10,162 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.prpymes.microservicios.app.ventas:microservicios-ventas:0.0.1-SNAPSHOT @ E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-portal-ventas\pom.xml.
+2022-11-22 23:05:16,152 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:05:16,153 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:05:16,155 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:05:16,158 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:05:16,228 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:05:16,229 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:05:16,230 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-portal-ventas\src\test\resources
+2022-11-22 23:05:18,497 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:05:18,498 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:05:18,503 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 23:05:18,519 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:05:18,587 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:05:18,587 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:05:18,589 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-portal-ventas\src\test\resources
+2022-11-22 23:09:30,887 [Worker-45: Launching microservicios-ventas - MicroserviciosVentasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 23:09:34,726 [Worker-45: Launching microservicios-ventas - MicroserviciosVentasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 23:09:38,275 [Worker-45: Launching microservicios-ventas - MicroserviciosVentasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 23:09:45,016 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:09:45,017 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:09:45,020 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 23:09:45,054 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:09:45,134 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:09:45,134 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:09:45,134 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-ventas\src\test\resources
+2022-11-22 23:10:55,322 [Worker-48: Launching microservicios-ventas - MicroserviciosVentasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 23:10:58,993 [Worker-48: Launching microservicios-ventas - MicroserviciosVentasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 23:11:02,835 [Worker-48: Launching microservicios-ventas - MicroserviciosVentasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 23:15:36,882 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:15:36,883 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:15:36,890 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 23:15:36,987 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:15:37,106 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:15:37,106 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:15:37,108 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-ventas\src\test\resources
+2022-11-22 23:18:11,374 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:18:11,375 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:18:11,380 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 23:18:11,490 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:18:11,566 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:18:11,566 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:18:11,567 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-ventas\src\test\resources
+2022-11-22 23:18:21,504 [Worker-46: Launching microservicios-ventas - MicroserviciosVentasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 23:18:24,926 [Worker-46: Launching microservicios-ventas - MicroserviciosVentasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 23:18:28,340 [Worker-46: Launching microservicios-ventas - MicroserviciosVentasApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicios: com.prpymes.microservicios.commons:commons-microservicios:0.0.1-SNAPSHOT with classifier null to /commons-microservicios/target/classes
+2022-11-22 23:22:06,994 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:22:06,995 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:22:06,998 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 23:22:07,060 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:22:07,121 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:22:07,123 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:22:07,123 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-gateway\src\test\resources
+2022-11-22 23:23:15,501 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:23:15,502 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:23:15,504 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-11-22 23:23:15,525 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 23:23:15,569 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-22 23:23:15,570 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-11-22 23:23:15,571 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-gateway\src\test\resources
