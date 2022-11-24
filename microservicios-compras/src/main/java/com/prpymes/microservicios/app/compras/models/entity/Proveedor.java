@@ -26,7 +26,7 @@ public class Proveedor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private Integer idProveedor;
+    private Long idProveedor;
 
     @Column(length = 45)
     private String nombre;
@@ -44,14 +44,11 @@ public class Proveedor {
     private String logotipo;
 
     @Column(length = 1)
-    private Boolean estado;
+    private Boolean estado = true;
 
     @Column(name = "update_date")
     @Temporal(TemporalType.TIMESTAMP)
     private Date updatedDate;
-
-    @Column(name = "user_update")
-    private Integer userUpdate;
 
     @JsonIgnoreProperties(value = {"proveedor"}, allowSetters = true)
     @OneToMany(mappedBy = "proveedor", fetch = FetchType.LAZY,cascade = CascadeType.ALL, orphanRemoval = true)
@@ -66,11 +63,11 @@ public class Proveedor {
         this.presupuestos = new ArrayList<>();
     }
 
-    public Integer getIdProveedor() {
+    public Long getIdProveedor() {
         return idProveedor;
     }
 
-    public void setIdProveedor(Integer idProveedor) {
+    public void setIdProveedor(Long idProveedor) {
         this.idProveedor = idProveedor;
     }
 
@@ -128,14 +125,6 @@ public class Proveedor {
 
     public void setUpdatedDate(Date updatedDate) {
         this.updatedDate = updatedDate;
-    }
-
-    public Integer getUserUpdate() {
-        return userUpdate;
-    }
-
-    public void setUserUpdate(Integer userUpdate) {
-        this.userUpdate = userUpdate;
     }
 
     public List<Presupuesto> getPresupuestos() {

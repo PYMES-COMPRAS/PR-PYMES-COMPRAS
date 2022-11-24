@@ -29,7 +29,7 @@ public class Pedido {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private Integer idPedido;
+    private Long idPedido;
 
     @Column(name = "fecha_orden")
     private Date fechaOrden;
@@ -49,14 +49,11 @@ public class Pedido {
     private Short divisa;
 
     @Column(length = 1)
-    private Short estado;
+    private Short estado = 1;
 
     @Column(name = "update_date")
     @Temporal(TemporalType.TIMESTAMP)
     private Date updateDate;
-
-    @Column(name = "user_update")
-    private Integer userUpdate;
 
     @PrePersist
     public void aniadirFecha() {
@@ -79,11 +76,11 @@ public class Pedido {
         this.detallespedidos = new ArrayList<>();
     }
 
-    public Integer getIdPedido() {
+    public Long getIdPedido() {
         return idPedido;
     }
 
-    public void setIdPedido(Integer idPedido) {
+    public void setIdPedido(Long idPedido) {
         this.idPedido = idPedido;
     }
 
@@ -149,14 +146,6 @@ public class Pedido {
 
     public void setUpdateDate(Date updateDate) {
         this.updateDate = updateDate;
-    }
-
-    public Integer getUserUpdate() {
-        return userUpdate;
-    }
-
-    public void setUserUpdate(Integer userUpdate) {
-        this.userUpdate = userUpdate;
     }
     
     public Short getMetodoPedido() {

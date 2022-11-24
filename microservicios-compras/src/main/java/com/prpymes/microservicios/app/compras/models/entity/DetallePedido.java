@@ -21,7 +21,7 @@ public class DetallePedido {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private Integer idDetallePedido;
+    private Long idDetallePedido;
 
     private Short descuento;
 
@@ -35,16 +35,14 @@ public class DetallePedido {
     @JoinColumn(name = "idPedido")
     private Pedido pedido;
 
-    @JsonIgnoreProperties(value = {"detallespedidos","hibernateLazyInitializer"})
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "idProducto")
-    private Producto producto;
+    @Column(name = "id_producto")
+    private Long idProducto;
 
-    public Integer getIdDetallePedido() {
+    public Long getIdDetallePedido() {
         return idDetallePedido;
     }
 
-    public void setIdDetallePedido(Integer idDetallePedido) {
+    public void setIdDetallePedido(Long idDetallePedido) {
         this.idDetallePedido = idDetallePedido;
     }
 
@@ -80,14 +78,6 @@ public class DetallePedido {
         this.pedido = pedido;
     }
 
-    public Producto getProducto() {
-        return producto;
-    }
-
-    public void setProducto(Producto producto) {
-        this.producto = producto;
-    }
-
     @Override
     public boolean equals(Object obj) {
         if(this == obj) {
@@ -100,6 +90,14 @@ public class DetallePedido {
         DetallePedido dp = (DetallePedido) obj;
 
         return this.idDetallePedido != null && this.idDetallePedido.equals(dp.getIdDetallePedido());
+    }
+
+    public Long getIdProducto() {
+        return idProducto;
+    }
+
+    public void setIdProducto(Long idProducto) {
+        this.idProducto = idProducto;
     }
 
 }
