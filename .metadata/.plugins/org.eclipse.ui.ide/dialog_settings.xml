@@ -37,6 +37,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api\microservicios-usuario-cliente"/>
 			<item value="E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\pr-pymes-api"/>
 			<item value="E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\PR_Almacenes"/>
 			<item value="E:\Archivos Andy\UNIVERSIDAD\6TO-SEMESTRE\PS3\PYMES\BACKEND\PR_PYMES_VENTAS"/>
