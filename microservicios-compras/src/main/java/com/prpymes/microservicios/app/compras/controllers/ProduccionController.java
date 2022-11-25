@@ -56,4 +56,9 @@ public class ProduccionController extends CommonControllerC<Produccion, Producci
 		return ResponseEntity.noContent().build();
 	}
 
+	@GetMapping("/producciones/manufactura")
+	public ResponseEntity<?> inerJoinManufactura(Pageable pageable) {
+		return ResponseEntity.ok().body(service.innerJoinManufacturas());
+	}
+
 }
