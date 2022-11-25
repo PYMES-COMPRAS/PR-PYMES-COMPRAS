@@ -9,6 +9,6 @@ import com.prpymes.microservicios.app.compras.models.entity.Presupuesto;
 
 public interface PresupuestoRepository extends PagingAndSortingRepository<Presupuesto, Integer>{
     
-    @Query(value="SELECT pre.id, pre.idProveedor, pro.nombre , pre.ref_presupuesto, pre.base_imponible, pre.descuentos, pre.fecha_inicio, pre.presupuesto_actual, pre.estado, pre.update_date, pre.user_update FROM pm_c_presupuesto pre INNER JOIN pm_c_proveedor pro on pre.idProveedor = pro.id", nativeQuery = true)
+    @Query(value="SELECT pre.id, pre.id_proveedor, pro.nombre , pre.ref_presupuesto, pre.base_imponible, pre.descuentos, pre.fecha_inicio, pre.presupuesto_actual, pre.estado, pre.update_date FROM pm_c_presupuesto pre INNER JOIN pm_c_proveedor pro on pre.id_proveedor = pro.id", nativeQuery = true)
     public List<Object> joinPresupuestoWithProveedor();
 }

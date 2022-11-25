@@ -13,7 +13,7 @@ public interface ProveedorRepository extends PagingAndSortingRepository<Proveedo
 	public List<Proveedor> findByNombre(String term);
 
     //@Query("SELECT new Users(e.id, e.email, e.firstname, e.surname) FROM Users e")
-    @Query(value="SELECT PRE.* FROM pm_c_proveedor PR INNER JOIN pm_c_presupuesto PRE ON PRE.idProveedor = PR.id WHERE PRE.idProveedor = ?1", nativeQuery = true)
+    @Query(value="SELECT PRE.* FROM pm_c_proveedor PR INNER JOIN pm_c_presupuesto PRE ON PRE.id_proveedor = PR.id WHERE PRE.id_proveedor = ?1", nativeQuery = true)
 	public List<Object> findPresupuestosForProvedor(Integer idProveedor);
     
 }
