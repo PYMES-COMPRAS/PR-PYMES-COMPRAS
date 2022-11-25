@@ -18,6 +18,11 @@ public class PedidoServiceImpl extends CommonServiceImplC<Pedido, PedidoReposito
     public List<Object> showPedidoById(@Param("id") Integer id) {
         return repository.showPedidoById(id);
     }
+
+    @Override
+    public List<Object> listarPedidos() {
+        return repository.listarPedidos();
+    }
     
     
 }

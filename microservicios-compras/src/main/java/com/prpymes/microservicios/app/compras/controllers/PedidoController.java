@@ -60,6 +60,7 @@ public class PedidoController extends CommonControllerC<Pedido, PedidoService> {
         pedidoDb.setFechaEntrega(pedido.getFechaEntrega());
         pedidoDb.setMetodoPedido(pedido.getMetodoPedido());
         pedidoDb.setNota(pedido.getNota());
+        pedidoDb.setEstado((short) 2);
 
         return ResponseEntity.status(HttpStatus.CREATED).body(service.save(pedidoDb));
     }
@@ -105,5 +106,10 @@ public class PedidoController extends CommonControllerC<Pedido, PedidoService> {
 	public ResponseEntity<?> eliminar(@PathVariable Integer id) {
 		service.deleteById(id);
 		return ResponseEntity.noContent().build();
+	}
+
+    @GetMapping("/pedidos/listaPedidos")
+	public ResponseEntity<?> listadoPedidos() {
+		return ResponseEntity.ok(service.listarPedidos());
 	}
 }
