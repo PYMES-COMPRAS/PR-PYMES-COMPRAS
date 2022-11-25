@@ -25,7 +25,7 @@ import com.prpymes.microservicios.commons.controllers.CommonControllerC;
 public class ProveedorController extends CommonControllerC<Proveedor, ProveedorService>{
     
     @PutMapping("/proveedores/{id}")
-    public ResponseEntity<?> editar(@RequestBody Proveedor proveedor, @PathVariable Integer id){
+    public ResponseEntity<?> editar(@RequestBody Proveedor proveedor, @PathVariable Long id){
         Optional<Proveedor> o = service.findById(id);
 
         if(!o.isPresent()){
@@ -55,12 +55,12 @@ public class ProveedorController extends CommonControllerC<Proveedor, ProveedorS
 	}
 
     @GetMapping("/proveedores/filtrarPresupuesto/{idProveedor}")
-    public ResponseEntity<?> filtrarPresupuestoPorProveedor(@PathVariable Integer idProveedor){
+    public ResponseEntity<?> filtrarPresupuestoPorProveedor(@PathVariable Long idProveedor){
         return ResponseEntity.ok(service.findPresupuestosForProvedor(idProveedor));
     }
 
     @PutMapping("/proveedores/delete/{id}")
-    public ResponseEntity<?> deleteLogico(@RequestBody Proveedor proveedor, @PathVariable Integer id){
+    public ResponseEntity<?> deleteLogico(@RequestBody Proveedor proveedor, @PathVariable Long id){
         Optional<Proveedor> o = service.findById(id);
 
         if(!o.isPresent()){
@@ -74,7 +74,7 @@ public class ProveedorController extends CommonControllerC<Proveedor, ProveedorS
     }
 
     @PutMapping("/proveedores/{id}/agregar-presupuestos")
-    public ResponseEntity<?> agregarPresupuestos(@RequestBody List<Presupuesto> presupuestos, @PathVariable Integer id){
+    public ResponseEntity<?> agregarPresupuestos(@RequestBody List<Presupuesto> presupuestos, @PathVariable Long id){
         Optional<Proveedor> o = this.service.findById(id);
         if(!o.isPresent()) {
             return ResponseEntity.notFound().build();
@@ -89,7 +89,7 @@ public class ProveedorController extends CommonControllerC<Proveedor, ProveedorS
     }
 
     @PutMapping("/proveedores/{id}/eliminar-presupuesto")
-    public ResponseEntity<?> eliminarPresupuesto(@RequestBody Presupuesto presupuesto, @PathVariable Integer id){
+    public ResponseEntity<?> eliminarPresupuesto(@RequestBody Presupuesto presupuesto, @PathVariable Long id){
         Optional<Proveedor> o = this.service.findById(id);
         if(!o.isPresent()) {
             return ResponseEntity.notFound().build();
@@ -109,7 +109,7 @@ public class ProveedorController extends CommonControllerC<Proveedor, ProveedorS
 
 	@Override
 	@GetMapping("/proveedores/{id}")
-	public ResponseEntity<?> ver(@PathVariable Integer id) {
+	public ResponseEntity<?> ver(@PathVariable Long id) {
 		Optional<Proveedor> o = service.findById(id);
 		if(!o.isPresent()) {
 			return ResponseEntity.notFound().build();
@@ -133,7 +133,7 @@ public class ProveedorController extends CommonControllerC<Proveedor, ProveedorS
 
 	@Override
 	@DeleteMapping("/proveedores/{id}")
-	public ResponseEntity<?> eliminar(@PathVariable Integer id) {
+	public ResponseEntity<?> eliminar(@PathVariable Long id) {
 		service.deleteById(id);
 		return ResponseEntity.noContent().build();
 	}

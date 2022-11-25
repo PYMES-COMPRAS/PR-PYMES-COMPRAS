@@ -27,7 +27,7 @@ public class ProduccionController extends CommonControllerC<Produccion, Producci
 
 	@Override
 	@GetMapping("/producciones/{id}")
-	public ResponseEntity<?> ver(@PathVariable Integer id) {
+	public ResponseEntity<?> ver(@PathVariable Long id) {
 		Optional<Produccion> o = service.findById(id);
 		if(!o.isPresent()) {
 			return ResponseEntity.notFound().build();
@@ -51,7 +51,7 @@ public class ProduccionController extends CommonControllerC<Produccion, Producci
 
 	@Override
 	@DeleteMapping("/producciones/{id}")
-	public ResponseEntity<?> eliminar(@PathVariable Integer id) {
+	public ResponseEntity<?> eliminar(@PathVariable Long id) {
 		service.deleteById(id);
 		return ResponseEntity.noContent().build();
 	}

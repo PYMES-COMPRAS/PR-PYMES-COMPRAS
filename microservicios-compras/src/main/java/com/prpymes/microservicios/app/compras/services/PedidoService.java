@@ -9,7 +9,7 @@ import com.prpymes.microservicios.commons.services.CommonServiceC;
 
 public interface PedidoService extends CommonServiceC<Pedido>{
     
-    public List<Object> showPedidoById(@Param("id") Integer id);
+    public List<Object> showPedidoById(@Param("id") Long id);
 
     public List<Object> listarPedidos();
 }

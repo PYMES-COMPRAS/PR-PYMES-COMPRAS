@@ -27,7 +27,7 @@ public class ManufacturaController extends CommonControllerC<Manufactura, Manufa
 
 	@Override
 	@GetMapping("/manufaturas/{id}")
-	public ResponseEntity<?> ver(@PathVariable Integer id) {
+	public ResponseEntity<?> ver(@PathVariable Long id) {
 		Optional<Manufactura> o = service.findById(id);
 		if(!o.isPresent()) {
 			return ResponseEntity.notFound().build();
@@ -51,7 +51,7 @@ public class ManufacturaController extends CommonControllerC<Manufactura, Manufa
 
 	@Override
 	@DeleteMapping("/manufaturas/{id}")
-	public ResponseEntity<?> eliminar(@PathVariable Integer id) {
+	public ResponseEntity<?> eliminar(@PathVariable Long id) {
 		service.deleteById(id);
 		return ResponseEntity.noContent().build();
 	}

@@ -15,7 +15,7 @@ public class PedidoServiceImpl extends CommonServiceImplC<Pedido, PedidoReposito
 
     @Override
     @Transactional(readOnly = true)
-    public List<Object> showPedidoById(@Param("id") Integer id) {
+    public List<Object> showPedidoById(@Param("id") Long id) {
         return repository.showPedidoById(id);
     }
 

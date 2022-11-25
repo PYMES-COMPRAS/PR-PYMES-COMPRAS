@@ -22,7 +22,7 @@ import com.prpymes.microservicios.commons.controllers.CommonControllerC;
 public class PedidoController extends CommonControllerC<Pedido, PedidoService> {
     
     @PutMapping("/pedidos/{id}")
-    public ResponseEntity<?> editar(@RequestBody Pedido pedido, @PathVariable Integer id){
+    public ResponseEntity<?> editar(@RequestBody Pedido pedido, @PathVariable Long id){
         Optional<Pedido> o = service.findById(id);
 
         if(!o.isPresent()){
@@ -48,7 +48,7 @@ public class PedidoController extends CommonControllerC<Pedido, PedidoService> {
     }
 
     @PutMapping("/pedidos/editar-pedido-para-confirmar/{id}")
-    public ResponseEntity<?> editarPedido(@RequestBody Pedido pedido, @PathVariable Integer id){
+    public ResponseEntity<?> editarPedido(@RequestBody Pedido pedido, @PathVariable Long id){
         Optional<Pedido> o = service.findById(id);
 
         if(o.isEmpty()){
@@ -67,7 +67,7 @@ public class PedidoController extends CommonControllerC<Pedido, PedidoService> {
 
 
     @GetMapping("/pedidos/mostrar/{id}")
-    public ResponseEntity<?> mostrarPedido(@Param("id") @PathVariable Integer id) {
+    public ResponseEntity<?> mostrarPedido(@Param("id") @PathVariable Long id) {
         return ResponseEntity.ok(service.showPedidoById(id));
     }
     
@@ -79,7 +79,7 @@ public class PedidoController extends CommonControllerC<Pedido, PedidoService> {
 
 	@Override
 	@GetMapping("/pedidos/{id}")
-	public ResponseEntity<?> ver(@PathVariable Integer id) {
+	public ResponseEntity<?> ver(@PathVariable Long id) {
 		Optional<Pedido> o = service.findById(id);
 		if(!o.isPresent()) {
 			return ResponseEntity.notFound().build();
@@ -103,7 +103,7 @@ public class PedidoController extends CommonControllerC<Pedido, PedidoService> {
 
 	@Override
 	@DeleteMapping("/pedidos/{id}")
-	public ResponseEntity<?> eliminar(@PathVariable Integer id) {
+	public ResponseEntity<?> eliminar(@PathVariable Long id) {
 		service.deleteById(id);
 		return ResponseEntity.noContent().build();
 	}

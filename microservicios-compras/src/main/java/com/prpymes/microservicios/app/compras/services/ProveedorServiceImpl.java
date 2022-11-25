@@ -20,7 +20,7 @@ public class ProveedorServiceImpl extends CommonServiceImplC<Proveedor, Proveedo
 
     @Override
     @Transactional(readOnly = true)
-	public List<Object> findPresupuestosForProvedor(Integer idProveedor){
+	public List<Object> findPresupuestosForProvedor(Long idProveedor){
 		return repository.findPresupuestosForProvedor(idProveedor);
 	}
     

@@ -23,7 +23,7 @@ import com.prpymes.microservicios.commons.controllers.CommonControllerC;
 public class PresupuestoController extends CommonControllerC<Presupuesto, PresupuestoService> {
     
     @PutMapping("/presupuestos/{id}")
-    public ResponseEntity<?> editar(@RequestBody Presupuesto presupuesto, @PathVariable Integer id){
+    public ResponseEntity<?> editar(@RequestBody Presupuesto presupuesto, @PathVariable Long id){
         Optional<Presupuesto> o = service.findById(id);
 
         if(o.isEmpty()){
@@ -50,7 +50,7 @@ public class PresupuestoController extends CommonControllerC<Presupuesto, Presup
 
     
     @PutMapping("/presupuestos/{id}/agregar-pedido")
-    public ResponseEntity<?> agregarPedido(@RequestBody List<Pedido> pedidos, @PathVariable Integer id){
+    public ResponseEntity<?> agregarPedido(@RequestBody List<Pedido> pedidos, @PathVariable Long id){
         Optional<Presupuesto> o = this.service.findById(id);
         if(!o.isPresent()) {
             return ResponseEntity.notFound().build();
@@ -65,7 +65,7 @@ public class PresupuestoController extends CommonControllerC<Presupuesto, Presup
     }
 
     @PutMapping("/presupuestos/{id}/eliminar-pedido")
-    public ResponseEntity<?> eliminarPedido(@RequestBody Pedido pedido, @PathVariable Integer id){
+    public ResponseEntity<?> eliminarPedido(@RequestBody Pedido pedido, @PathVariable Long id){
         Optional<Presupuesto> o = this.service.findById(id);
         if(!o.isPresent()) {
             return ResponseEntity.notFound().build();
@@ -90,7 +90,7 @@ public class PresupuestoController extends CommonControllerC<Presupuesto, Presup
 
 	@Override
 	@GetMapping("/presupuestos/{id}")
-	public ResponseEntity<?> ver(@PathVariable Integer id) {
+	public ResponseEntity<?> ver(@PathVariable Long id) {
 		Optional<Presupuesto> o = service.findById(id);
 		if(!o.isPresent()) {
 			return ResponseEntity.notFound().build();
@@ -114,7 +114,7 @@ public class PresupuestoController extends CommonControllerC<Presupuesto, Presup
 
 	@Override
 	@DeleteMapping("/presupuestos/{id}")
-	public ResponseEntity<?> eliminar(@PathVariable Integer id) {
+	public ResponseEntity<?> eliminar(@PathVariable Long id) {
 		service.deleteById(id);
 		return ResponseEntity.noContent().build();
 	}

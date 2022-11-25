@@ -32,7 +32,7 @@ public class CommonControllerC<E, S extends CommonServiceC<E>> {
 	}
 
     @GetMapping("/{id}")
-    public ResponseEntity<?> ver(@PathVariable Integer id){
+    public ResponseEntity<?> ver(@PathVariable Long id){
         Optional<E> o = service.findById(id);
         if(o.isEmpty()){
             ResponseEntity.notFound().build();
@@ -47,7 +47,7 @@ public class CommonControllerC<E, S extends CommonServiceC<E>> {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> eliminar(@PathVariable Integer id){
+    public ResponseEntity<?> eliminar(@PathVariable Long id){
         service.deleteById(id);
         return ResponseEntity.noContent().build();
     } 

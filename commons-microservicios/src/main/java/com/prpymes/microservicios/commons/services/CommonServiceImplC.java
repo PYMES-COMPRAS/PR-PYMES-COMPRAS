@@ -8,7 +8,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.transaction.annotation.Transactional;
 
-public class CommonServiceImplC<E, R extends PagingAndSortingRepository<E,Integer>> implements CommonServiceC<E> {
+public class CommonServiceImplC<E, R extends PagingAndSortingRepository<E,Long>> implements CommonServiceC<E> {
 
     @Autowired
     protected R repository;
@@ -21,7 +21,7 @@ public class CommonServiceImplC<E, R extends PagingAndSortingRepository<E,Intege
 
     @Override
     @Transactional(readOnly = true)
-    public Optional<E> findById(Integer id) {
+    public Optional<E> findById(Long id) {
         return repository.findById(id);
     }
 
@@ -33,7 +33,7 @@ public class CommonServiceImplC<E, R extends PagingAndSortingRepository<E,Intege
 
     @Override
     @Transactional
-    public void deleteById(Integer id) {
+    public void deleteById(Long id) {
         repository.deleteById(id);
     }
 

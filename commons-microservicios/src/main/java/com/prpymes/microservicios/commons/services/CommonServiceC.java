@@ -9,11 +9,11 @@ public interface CommonServiceC<E> {
     
     public Iterable<E> findAll();
 
-    public Optional<E> findById(Integer id);
+    public Optional<E> findById(Long id);
 
     public E save(E entity);
 
-    public void deleteById(Integer id);
+    public void deleteById(Long id);
 
     public Page<E> findAll(Pageable pageable);
 }
