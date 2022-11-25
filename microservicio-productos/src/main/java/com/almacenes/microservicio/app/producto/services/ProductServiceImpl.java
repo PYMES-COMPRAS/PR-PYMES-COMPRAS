@@ -19,4 +19,9 @@ public class ProductServiceImpl extends CommonServiceImpl<Product, ProductReposi
 		return repository.findByNameOrDescription(term);
 	}
 
+	@Override
+	public List<Product> getProductManufactured() {
+		return repository.getProductManufactured();
+	}
+
 }

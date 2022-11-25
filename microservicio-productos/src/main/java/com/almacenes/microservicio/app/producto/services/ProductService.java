@@ -9,4 +9,5 @@ import com.prpymes.microservicios.commons.services.CommonService;
 public interface ProductService extends CommonService<Product> {
 	
 	public List<Product> findByNameOrDescription(String term);
+	public List<Product> getProductManufactured();
 }
