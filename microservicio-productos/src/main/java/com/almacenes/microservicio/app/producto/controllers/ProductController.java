@@ -34,7 +34,7 @@ public class ProductController extends CommonController<Product, ProductService>
 		productDb.setPrice(product.getPrice());
 		productDb.setBarcode(product.getBarcode());
 		productDb.setDiscount(product.getDiscount());
-		productDb.setSupplier(product.getBarcode());
+		productDb.setSupplier(product.getSupplier());
 		productDb.setIva(product.getIva());
 		productDb.setCategory(product.getCategory());
 		productDb.setBatch(product.getBatch());

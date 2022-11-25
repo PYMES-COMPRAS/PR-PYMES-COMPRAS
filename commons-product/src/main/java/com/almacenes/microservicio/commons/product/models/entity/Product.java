@@ -31,19 +31,11 @@ public class Product {
 	private double price;
 	private String barcode;
 	private double discount;
-	private String supplier;
+	private Long supplier;
 	private double iva;
 	private String category;
 	private double batch;
-	private Long idProveedor;
 	
-	
-	public Long getIdProveedor() {
-		return idProveedor;
-	}
-	public void setIdProveedor(Long idProveedor) {
-		this.idProveedor = idProveedor;
-	}
 	
 	@PrePersist
 	public void prePersist() {
@@ -122,10 +114,10 @@ public class Product {
 		Product p = (Product)obj;
 		return this.productID != null && this.productID.equals(p.getProductID());
 	}
-	public String getSupplier() {
+	public Long getSupplier() {
 		return supplier;
 	}
-	public void setSupplier(String supplier) {
+	public void setSupplier(Long supplier) {
 		this.supplier = supplier;
 	}
 	public double getIva() {
