@@ -1,8 +1,11 @@
 package com.pymes.commons.models.entity;
 
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -11,6 +14,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -24,6 +28,7 @@ public class Pedido {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Integer idPedido;
 
     @Column(name = "fecha_orden")
@@ -44,7 +49,7 @@ public class Pedido {
     private Short divisa;
 
     @Column(length = 1)
-    private Boolean estado;
+    private Short estado;
 
     @Column(name = "update_date")
     @Temporal(TemporalType.TIMESTAMP)
@@ -57,11 +62,22 @@ public class Pedido {
     public void aniadirFecha() {
         this.updateDate = new Date();
     }
+    
+    @Column(name = "metodo_pedido")
+    private Short metodoPedido;
 
-    @JsonIgnoreProperties(value = {"pedidos"})
+    @JsonIgnoreProperties(value = {"pedidos","hibernateLazyInitializer"})
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "idPresupuesto")
     private Presupuesto presupuesto;
+
+    @JsonIgnoreProperties(value = {"pedido"}, allowSetters = true)
+    @OneToMany(mappedBy = "pedido", fetch = FetchType.LAZY,cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<DetallePedido> detallespedidos; 
+
+    public Pedido() {
+        this.detallespedidos = new ArrayList<>();
+    }
 
     public Integer getIdPedido() {
         return idPedido;
@@ -119,11 +135,11 @@ public class Pedido {
         this.divisa = divisa;
     }
 
-    public Boolean getEstado() {
+    public Short getEstado() {
         return estado;
     }
 
-    public void setEstado(Boolean estado) {
+    public void setEstado(Short estado) {
         this.estado = estado;
     }
 
@@ -142,7 +158,15 @@ public class Pedido {
     public void setUserUpdate(Integer userUpdate) {
         this.userUpdate = userUpdate;
     }
+    
+    public Short getMetodoPedido() {
+        return metodoPedido;
+    }
 
+    public void setMetodoPedido(Short metodoPedido) {
+        this.metodoPedido = metodoPedido;
+    }
+    
     public Presupuesto getPresupuesto() {
         return presupuesto;
     }
@@ -164,6 +188,25 @@ public class Pedido {
         Pedido p = (Pedido) obj;
 
         return this.idPedido != null && this.idPedido.equals(p.getIdPedido());
+    }
+
+    public List<DetallePedido> getDetallespedidos() {
+        return detallespedidos;
+    }
+
+    public void setDetallespedidos(List<DetallePedido> detallespedidos) {
+        this.detallespedidos.clear();
+        detallespedidos.forEach(this::addDetallepedido);
+    }
+
+    public void addDetallepedido(DetallePedido detallePedido) {
+        this.detallespedidos.add(detallePedido);
+        detallePedido.setPedido(this);
+    }
+
+    public void removeDetallePedido(DetallePedido detallePedido) {
+        this.detallespedidos.remove(detallePedido);
+        detallePedido.setPedido(null);
     }
     
 }

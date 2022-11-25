@@ -28,6 +28,7 @@ public class Presupuesto {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Integer idPresupuesto;
 
     @Column(name = "ref_presupuesto", length = 45)
@@ -38,22 +39,14 @@ public class Presupuesto {
 
     private Short descuentos;
 
-    @Column(name = "fecha_entrega")
-    private Date fechaEntrega;
-
-    @Column(name = "condiciones_pago")
-    private Short condicionesPago;
-
-    @Column(name = "tipo_pago")
-    private Short tipoPago;
-
-    private Short divisa;
+    @Column(name = "fecha_inicio")
+    private Date fechaInicio;
 
     @Column(name = "presupuesto_actual", precision = 8, scale = 2)
     private BigDecimal presupuestoActual;
 
     @Column(length = 1)
-    private Boolean estado;
+    private Short estado;
 
     @Column(name = "update_date")
     @Temporal(TemporalType.TIMESTAMP)
@@ -62,7 +55,7 @@ public class Presupuesto {
     @Column(name = "user_update")
     private Integer userUpdate;
 
-    @JsonIgnoreProperties(value = {"presupuestos"})
+    @JsonIgnoreProperties(value = {"presupuestos","hibernateLazyInitializer"})
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "idProveedor")
     private Proveedor proveedor;
@@ -112,36 +105,12 @@ public class Presupuesto {
         this.descuentos = descuentos;
     }
 
-    public Date getFechaEntrega() {
-        return fechaEntrega;
+    public Date getFechaInicio() {
+        return fechaInicio;
     }
 
-    public void setFechaEntrega(Date fechaEntrega) {
-        this.fechaEntrega = fechaEntrega;
-    }
-
-    public Short getCondicionesPago() {
-        return condicionesPago;
-    }
-
-    public void setCondicionesPago(Short condicionesPago) {
-        this.condicionesPago = condicionesPago;
-    }
-
-    public Short getTipoPago() {
-        return tipoPago;
-    }
-
-    public void setTipoPago(Short tipoPago) {
-        this.tipoPago = tipoPago;
-    }
-
-    public Short getDivisa() {
-        return divisa;
-    }
-
-    public void setDivisa(Short divisa) {
-        this.divisa = divisa;
+    public void setFechaInicio(Date fechaInicio) {
+        this.fechaInicio = fechaInicio;
     }
 
     public BigDecimal getPresupuestoActual() {
@@ -152,11 +121,11 @@ public class Presupuesto {
         this.presupuestoActual = presupuestoActual;
     }
 
-    public Boolean getEstado() {
+    public Short getEstado() {
         return estado;
     }
 
-    public void setEstado(Boolean estado) {
+    public void setEstado(Short estado) {
         this.estado = estado;
     }
 

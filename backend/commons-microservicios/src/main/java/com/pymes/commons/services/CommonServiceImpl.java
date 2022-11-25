@@ -3,10 +3,12 @@ package com.pymes.commons.services;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.transaction.annotation.Transactional;
 
-public class CommonServiceImpl<E, R extends CrudRepository<E,Integer>> implements CommonService<E> {
+public class CommonServiceImpl<E, R extends PagingAndSortingRepository<E,Integer>> implements CommonService<E> {
 
     @Autowired
     protected R repository;
@@ -33,6 +35,12 @@ public class CommonServiceImpl<E, R extends CrudRepository<E,Integer>> implement
     @Transactional
     public void deleteById(Integer id) {
         repository.deleteById(id);
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public Page<E> findAll(Pageable pageable) {
+        return repository.findAll(pageable);
     }
 
 }
