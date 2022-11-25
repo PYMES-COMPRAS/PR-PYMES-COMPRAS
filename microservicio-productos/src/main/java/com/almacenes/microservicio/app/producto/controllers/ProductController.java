@@ -46,4 +46,8 @@ public class ProductController extends CommonController<Product, ProductService>
 		return ResponseEntity.ok(service.findByNameOrDescription(term));
 	}
 	
+	@GetMapping("/manufactured")
+	public ResponseEntity<?> filter(){
+		return ResponseEntity.ok(service.getProductManufactured());
+	}
 }
