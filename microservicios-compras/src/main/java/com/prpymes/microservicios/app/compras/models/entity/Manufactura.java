@@ -19,33 +19,31 @@ public class Manufactura {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private Integer idManufactura;
+    private Long idManufactura;
 
-    private Integer cantidad;
+    private Short cantidad;
 
     @JsonIgnoreProperties(value = {"manufacturas","hibernateLazyInitializer"})
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "idProduccion")
     private Produccion produccion;
 
-    @JsonIgnoreProperties(value = {"manufacturas","hibernateLazyInitializer"})
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "idProducto")
-    private Producto producto;
+    @Column(name = "id_producto")
+    private Long producto;
 
-    public Integer getIdManufactura() {
+    public Long getIdManufactura() {
         return idManufactura;
     }
 
-    public void setIdManufactura(Integer idManufactura) {
+    public void setIdManufactura(Long idManufactura) {
         this.idManufactura = idManufactura;
     }
 
-    public Integer getCantidad() {
+    public Short getCantidad() {
         return cantidad;
     }
 
-    public void setCantidad(Integer cantidad) {
+    public void setCantidad(Short cantidad) {
         this.cantidad = cantidad;
     }
 
@@ -55,14 +53,6 @@ public class Manufactura {
 
     public void setProduccion(Produccion produccion) {
         this.produccion = produccion;
-    }
-
-    public Producto getProducto() {
-        return producto;
-    }
-
-    public void setProducto(Producto producto) {
-        this.producto = producto;
     }
 
     @Override
@@ -79,5 +69,12 @@ public class Manufactura {
         return this.idManufactura != null && this.idManufactura.equals(m.getIdManufactura());
     }
 
-    
+    public Long getProducto() {
+        return producto;
+    }
+
+    public void setProducto(Long producto) {
+        this.producto = producto;
+    }
+
 }

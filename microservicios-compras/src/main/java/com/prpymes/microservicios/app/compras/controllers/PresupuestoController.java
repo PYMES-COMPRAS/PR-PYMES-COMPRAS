@@ -37,7 +37,6 @@ public class PresupuestoController extends CommonControllerC<Presupuesto, Presup
         presupuestoDb.setFechaInicio(presupuesto.getFechaInicio());
         presupuestoDb.setPresupuestoActual(presupuesto.getPresupuestoActual());
         presupuestoDb.setEstado(presupuesto.getEstado());
-        presupuestoDb.setUserUpdate(presupuesto.getUserUpdate());
 
         presupuestoDb.getPedidos()
         .stream()

@@ -26,7 +26,7 @@ public class Produccion {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private Integer idProduccion;
+    private Long idProduccion;
 
     @Column(name = "ref_produccion", length = 45)
     private String refProduccion;
@@ -34,14 +34,11 @@ public class Produccion {
     @Column(name = "fecha_produccion")
     private Date fechaProduccion;
 
-    private Short estado;
+    private Boolean estado = true;
 
     @Column(name = "update_date")
     @Temporal(TemporalType.TIMESTAMP)
     private Date updateDate;
-
-    @Column(name = "user_update")
-    private Integer userUpdate;
 
     @JsonIgnoreProperties(value = {"produccion"}, allowSetters = true)
     @OneToMany(mappedBy = "produccion", fetch = FetchType.LAZY,cascade = CascadeType.ALL, orphanRemoval = true)
@@ -56,10 +53,10 @@ public class Produccion {
         this.manufacturas = new ArrayList<>();
     }
 
-    public Integer getIdProduccion() {
+    public Long getIdProduccion() {
         return idProduccion;
     }
-    public void setIdProduccion(Integer idProduccion) {
+    public void setIdProduccion(Long idProduccion) {
         this.idProduccion = idProduccion;
     }
     public String getRefProduccion() {
@@ -74,10 +71,10 @@ public class Produccion {
     public void setFechaProduccion(Date fechaProduccion) {
         this.fechaProduccion = fechaProduccion;
     }
-    public Short getEstado() {
+    public Boolean getEstado() {
         return estado;
     }
-    public void setEstado(Short estado) {
+    public void setEstado(Boolean estado) {
         this.estado = estado;
     }
     public Date getUpdateDate() {
@@ -85,12 +82,6 @@ public class Produccion {
     }
     public void setUpdateDate(Date updateDate) {
         this.updateDate = updateDate;
-    }
-    public Integer getUserUpdate() {
-        return userUpdate;
-    }
-    public void setUserUpdate(Integer userUpdate) {
-        this.userUpdate = userUpdate;
     }
 
     public List<Manufactura> getManufacturas() {

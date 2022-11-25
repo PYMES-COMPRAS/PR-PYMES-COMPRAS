@@ -29,7 +29,7 @@ public class Presupuesto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private Integer idPresupuesto;
+    private Long idPresupuesto;
 
     @Column(name = "ref_presupuesto", length = 45)
     private String refPresupuesto;
@@ -46,14 +46,11 @@ public class Presupuesto {
     private BigDecimal presupuestoActual;
 
     @Column(length = 1)
-    private Short estado;
+    private Short estado = 1;
 
     @Column(name = "update_date")
     @Temporal(TemporalType.TIMESTAMP)
     private Date updateDate;
-
-    @Column(name = "user_update")
-    private Integer userUpdate;
 
     @JsonIgnoreProperties(value = {"presupuestos","hibernateLazyInitializer"})
     @ManyToOne(fetch = FetchType.LAZY)
@@ -73,11 +70,11 @@ public class Presupuesto {
         this.pedidos = new ArrayList<>();
     }
 
-    public Integer getIdPresupuesto() {
+    public Long getIdPresupuesto() {
         return idPresupuesto;
     }
 
-    public void setIdPresupuesto(Integer idPresupuesto) {
+    public void setIdPresupuesto(Long idPresupuesto) {
         this.idPresupuesto = idPresupuesto;
     }
 
@@ -135,14 +132,6 @@ public class Presupuesto {
 
     public void setUpdateDate(Date updateDate) {
         this.updateDate = updateDate;
-    }
-
-    public Integer getUserUpdate() {
-        return userUpdate;
-    }
-
-    public void setUserUpdate(Integer userUpdate) {
-        this.userUpdate = userUpdate;
     }
 
     public Proveedor getProveedor() {
