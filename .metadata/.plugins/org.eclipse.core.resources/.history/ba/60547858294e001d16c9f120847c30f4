@@ -1,2 +1,0 @@
-spring.application.name=microservicio-libro-diario
-server.port = ${PORT:0}
