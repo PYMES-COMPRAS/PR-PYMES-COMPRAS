@@ -23,6 +23,11 @@ public class PedidoServiceImpl extends CommonServiceImplC<Pedido, PedidoReposito
     public List<Object> listarPedidos() {
         return repository.listarPedidos();
     }
+
+    @Override
+    public List<Object> innerJoinDetallePedidos() {
+        return repository.innerJoinDetallePedidos();
+    }
     
     
 }

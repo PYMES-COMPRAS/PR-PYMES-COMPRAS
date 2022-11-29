@@ -1,5 +1,6 @@
 package com.prpymes.microservicios.app.compras.controllers;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.domain.Pageable;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.prpymes.microservicios.app.compras.models.entity.DetallePedido;
 import com.prpymes.microservicios.app.compras.models.entity.Pedido;
 import com.prpymes.microservicios.app.compras.services.PedidoService;
 import com.prpymes.microservicios.commons.controllers.CommonControllerC;
@@ -112,4 +114,24 @@ public class PedidoController extends CommonControllerC<Pedido, PedidoService> {
 	public ResponseEntity<?> listadoPedidos() {
 		return ResponseEntity.ok(service.listarPedidos());
 	}
+
+    @GetMapping("/pedidos/detallePedido")
+	public ResponseEntity<?> innerJoinManufactura(Pageable pageable) {
+		return ResponseEntity.ok().body(service.innerJoinDetallePedidos());
+	}
+
+    @PutMapping("/pedidos/{id}/agregar-manufacturas")
+    public ResponseEntity<?> agregarPresupuestos(@RequestBody List<DetallePedido> detallePedidos, @PathVariable Long id){
+        Optional<Pedido> o = this.service.findById(id);
+        if(!o.isPresent()) {
+            return ResponseEntity.notFound().build();
+        }
+        Pedido pedidoDb = o.get();
+
+        detallePedidos.forEach(a -> {
+            pedidoDb.addDetallepedido(a);
+        });
+
+        return ResponseEntity.status(HttpStatus.CREATED).body(this.service.save(pedidoDb));
+    }
 }

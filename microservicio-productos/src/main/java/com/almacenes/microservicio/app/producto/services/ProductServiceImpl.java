@@ -24,4 +24,9 @@ public class ProductServiceImpl extends CommonServiceImpl<Product, ProductReposi
 		return repository.getProductManufactured();
 	}
 
+	@Override
+	public List<Product> getProductPedido() {
+		return repository.getProductPedido();
+	}
+
 }

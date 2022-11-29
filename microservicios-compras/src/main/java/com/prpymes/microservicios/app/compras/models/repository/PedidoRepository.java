@@ -15,5 +15,8 @@ public interface PedidoRepository extends PagingAndSortingRepository<Pedido, Lon
     
     @Query(value = "SELECT pre.ref_presupuesto, pro.nombre, p.fecha_orden, p.fecha_entrega, pre.base_imponible, p.estado FROM pm_c_pedido p INNER JOIN pm_c_presupuesto pre ON pre.id = p.id_presupuesto INNER JOIN pm_c_proveedor pro ON pro.id = pre.id_proveedor", nativeQuery = true)
     public List<Object> listarPedidos();
+
+    @Query(value="SELECT P.id, P.condiciones_pago, P.divisa, P.estado, P.fecha_entrega, P.fecha_orden, P.metodo_pedido, P.nota, P.tipo_pago, P.update_date, P.id_presupuesto, DP.id AS idDetallePedido, DP.cantidad, DP.descuento, DP.precio_unitario, DP.id_producto FROM pm_c_pedido P INNER JOIN pm_c_detallepedido DP ON P.id = DP.id_pedido", nativeQuery = true)
+    public List<Object> innerJoinDetallePedidos();
     
 }

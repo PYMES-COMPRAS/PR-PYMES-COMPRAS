@@ -50,4 +50,9 @@ public class ProductController extends CommonController<Product, ProductService>
 	public ResponseEntity<?> filter(){
 		return ResponseEntity.ok(service.getProductManufactured());
 	}
+
+	@GetMapping("/pedidoProducto")
+	public ResponseEntity<?> pedidoProducto(){
+		return ResponseEntity.ok(service.getProductPedido());
+	}
 }

@@ -10,4 +10,5 @@ public interface ProductService extends CommonService<Product> {
 	
 	public List<Product> findByNameOrDescription(String term);
 	public List<Product> getProductManufactured();
+	public List<Product> getProductPedido();
 }

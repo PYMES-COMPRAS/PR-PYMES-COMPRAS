@@ -13,4 +13,7 @@ public interface ProductRepository extends CrudRepository<Product, Long> {
 
 	@Query(value="SELECT * FROM product P WHERE P.category = 'MANUFACTURA'", nativeQuery=true)
 	public List<Product> getProductManufactured();
+
+	@Query(value="SELECT * FROM product P WHERE P.category != 'MANUFACTURA'", nativeQuery=true)
+	public List<Product> getProductPedido();
 }
