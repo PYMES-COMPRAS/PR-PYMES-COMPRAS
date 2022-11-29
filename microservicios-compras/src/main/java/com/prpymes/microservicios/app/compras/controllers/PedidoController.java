@@ -120,7 +120,7 @@ public class PedidoController extends CommonControllerC<Pedido, PedidoService> {
 		return ResponseEntity.ok().body(service.innerJoinDetallePedidos());
 	}
 
-    @PutMapping("/pedidos/{id}/agregar-manufacturas")
+    @PutMapping("/pedidos/{id}/agregar-detallePedidos")
     public ResponseEntity<?> agregarPresupuestos(@RequestBody List<DetallePedido> detallePedidos, @PathVariable Long id){
         Optional<Pedido> o = this.service.findById(id);
         if(!o.isPresent()) {
